@@ -42,6 +42,34 @@
     "text": "High-throughput life science instruments, especially DNA sequencers, are improving rapidly. Sequencing has become a ubiquitous tool in the study of biology, genetics and disease. Today, because sequencing throughput is outpacing computer speed and storage capacity, the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.\nThe laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists. We pursue this goal by:\n\nDeveloping methods and software tools that are efficient, allowing researchers to interact with datasets quickly and effectively. See: Bowtie & Bowtie 2, Kraken 2, Dashing, Dashing 2, r-index, MONI, SPUMONI, Vargas, Lighter, Samovar, Arioc, HISAT. See also our read alignment review.\nDeveloping scalable tools that allow researchers to work with very large datasets, or large collections of datasets. See: recount3, Snaptron, Megadepth, Recount, recount2, recount3, ASCOT, Intropolis, Monorail, Rail-RNA, Rail-dbGaP, Myrna, Crossbow, Boiler. See also our cloud computing review.\nMaking output from our software as interpretable and free of bias as possible. See: Qtip, FORGe, Reference Flow and the related LevioSAM tool.\n\nSee Ben’s Google Scholar Profile for a full list of our publications.\nWe are passionate about teaching, both in the classroom at online e.g. in our highly-rated Algorithms for DNA Sequencing course on Coursera. We freely distribute teaching materials, including lecture videos, screencasts, lecture notes, and programming notebooks. These span subjects from programming in C/C++ to applied algorithms and data structures in computational biology. See the Teaching Materials page for links and details.\nThe lab is located at Johns Hopkins University in the Department of Computer Science."
   },
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Bowtie – fast short read alignment\nBowtie 2 – fast gapped read alignment for short reads\nQtip – mapping quality predictions\nSamovar – somatic mosaic variant detection\nVargas – heuristic-free read alignment\nArioc by Richard Wilton – fast GPU-based alignment\nHISAT by Daehwan Kim – fast spliced alignment\n\n\n\n\nr-index – by Nicola Prezza with modifications by Taher Mun\nMONI – by Max Rossi\nSPUMONI"
+  },
+  {
+    "objectID": "software.html#pangenome-alignment",
+    "href": "software.html#pangenome-alignment",
+    "title": "Software",
+    "section": "",
+    "text": "r-index – by Nicola Prezza with modifications by Taher Mun\nMONI – by Max Rossi\nSPUMONI"
+  },
+  {
+    "objectID": "software.html#recount-project-and-related-projects",
+    "href": "software.html#recount-project-and-related-projects",
+    "title": "Software",
+    "section": "Recount project and related projects",
+    "text": "Recount project and related projects\n\nrecount3\nASCOT by Jonathan Ling\nREPAC by Eddie Imada\n(superseded) Rail-dbGaP\n(superseded) recount2\n(superseded) recount\n(superseded) Intropolis"
+  },
+  {
+    "objectID": "software.html#rna-seq-analysis",
+    "href": "software.html#rna-seq-analysis",
+    "title": "Software",
+    "section": "RNA-seq analysis",
+    "text": "RNA-seq analysis\n\nMonorail – reproducible recount3 analysis pipeline\nMegadepth – RNA-seq coverage analysis\n(superseded) Rail-RNA"
+  },
+  {
     "objectID": "people.html",
     "href": "people.html",
     "title": "People",
