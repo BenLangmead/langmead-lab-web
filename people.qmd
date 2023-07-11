@@ -1,0 +1,20 @@
+---
+title: "People"
+---
+
+# Current members
+
+| ---------------------- | ----------------------- | -------------- |
+| Ben Langmead           | Principal Investigator  | [Twit](https://twitter.com/BenLangmead), [Schol](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en), [GitHub](https://github.com/BenLangmead), [Talks](https://speakerdeck.com/benlangmead/) |
+| Mohsen Zakeri          | Postdoctoral Fellow        | [GitHub]() |
+| Anna Liebhoff          | Postdoctoral Fellow, co-mentored with Ben Larman | [GitHub]() |
+| Jessica Bonnie         | Ph.D. Student              | [GitHub]() |
+| Omar Ahmed             | Ph.D. Student              | [GitHub]() |
+| Naga Sai Kavya Vaddadi | Ph.D. Student              | [GitHub]() |
+| Mao-Jan Lin            | Ph.D. Student              | [GitHub]() |
+| Vikram Shivakumar      | Ph.D. Student              | [GitHub]() |
+| Stephen Hwang          | Ph.D. Student              | [GitHub]() |
+
+# Alumni
+
+

@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Langmead Lab @ JHU"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - software.qmd
+      - pubs.qmd
+      - people.qmd
+      - teaching.qmd
+      - contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto

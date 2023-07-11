@@ -1,0 +1,287 @@
+---
+title: "Teaching Materials"
+---
+
+You are free to use these materials.  Feel free to [email me](mailto:langmea@cs.jhu.edu) to tell me how you are using them, or to ask for a copy of the original Keynote files.
+
+## Full courses online
+
+### Algorithms for DNA Sequencing
+
+* [Full course](https://www.coursera.org/course/ads1) on Coursera
+* [Lecture videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA) on YouTube (55 lectures, about 7 minutes each)
+* [Lecture notes](https://github.com/BenLangmead/ads1-slides) on GitHub
+* [Jupyter notebooks](https://github.com/BenLangmead/ads1-notebooks) on GitHub
+
+## Lecture notes
+
+### Computational Genomics
+
+Introductory
+
+* [What are Genomics and Computational Genomics?](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/01_genomics_comp_genomics_v2.pdf)
+* [DNA sequencing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/02_dna_sequencing_v2.pdf
+)
+
+Strings and matching
+
+* [Strings and exact matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/03_strings_exact_matching_v2.pdf)
+    * Notebook: Strings ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_StringBasics.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_StringBasics.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_001_StringBasics.ipynb))
+    * Notebook: Naive exact matching ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Naive.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Naive.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_002_Naive.ipynb))
+
+* [Boyer-Moore](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/04_boyer_moore_v2.pdf)
+    * Notebook: Z algorithm ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ZAlgorithm.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ZAlgorithm.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_003_ZAlgorithm.ipynb))
+    * Notebook: Boyer-Moore ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMoore.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMoore.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_004_BoyerMoore.ipynb))
+
+* [Approximate matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/06_approximate_matching_v2.pdf)
+    * Notebook: Naive approximate ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_005_NaiveApprox.ipynb))
+    * Notebook: Pigeonhole principle ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Py+Colab](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_006_BoyerMooreApprox.ipynb))
+
+Indexing
+
+* [Indexing with substrings](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/05_indexing_v2.pdf)
+    * Notebook: Substring indexes ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex1.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex1.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_007_InvertedIndex1.ipynb))
+    * Notebook: Grouped and ordered indexes ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex2.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex2.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_008_InvertedIndex2.ipynb))
+
+* [Tries and suffix tries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/07_tries_and_suffix_tries_v2.pdf)
+
+    * Notebook: Trie map ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_TrieMap.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_TrieMap.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_009_TrieMap.ipynb))
+    * Notebook: Suffix trie ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTrie.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTrie.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_010_SuffixTrie.ipynb))
+
+* [Suffix trees](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/08_suffix_trees_v2.pdf)
+    * Notebook: Suffix tree ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_011_SuffixTree.ipynb))
+
+* [Suffix arrays](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/09_suffix_arrays_v2.pdf)
+    * Notebook: Binary search ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Py+Colab](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_012_BinarySearch.ipynb))
+    * Notebook: Suffix-array binary search ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb))
+    * Notebook: Longest common prefix ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb))
+    * Notebook: From suffix tree to LCP/suffix array ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb))
+
+* [Burrows-Wheeler Transform and FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/10_bwt_and_fm_index_v2.pdf)
+    * Notebook: Burrows-Wheeler Transform ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb))
+    * Notebook: Reversing the BWT ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb))
+    * Notebook: FM Index ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb))
+
+Sequence alignment
+
+* [Dynamic programming and edit distance](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/11_dp_and_edit_dist_v2.pdf)
+    * Notebook: Hamming distance, edit distance, dynamic programming ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_EditDist.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_EditDist.ipynb))
+    * Notebook: Approximate matching dynamic programming ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEditDp.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEditDp.ipynb))
+
+* [Global alignment](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/12_global_alignment_v2.pdf)
+    * Notebook: Global alignment ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb))
+
+* [Local alignment](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/13_local_alignment_v2.pdf)
+    * Notebook: Local alignment ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb))
+
+* [Dynamic programming in less time and space](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/14_dp_in_less_time_space_v2.pdf)
+
+* [Index-assisted approximate matching and read alignment](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/15_index_assisted_v2.pdf)
+    * Notebook: Index-assisted pigeonhole principle ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEdit.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEdit.ipynb))
+
+Assembly
+
+* [Assembly & Shortest Common Superstring](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/16_assembly_scs_v2.pdf)
+
+    * Notebook: Brute-force SCS ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb))
+    * Notebook: Finding overlaps ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb))
+    * Notebook: Greedy SCS ([Python](https://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb))
+
+* [De Bruijn Graph Assembly](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/17_assembly_dbg_v2.pdf)
+    * Notebook: Simple De Bruijn graph ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBriujn.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBruijn.ipynb))
+    * Notebook: De Bruijn graph ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb))
+
+* [In practice: Overlap Layout Consensus](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/18_assembly_olc_v2.pdf)
+
+* [In practice: De Bruijn Graphs](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/19_assembly_dbg2_v2.pdf)
+    * Notebook: Error correction ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb))
+* [In practice: Scaffolding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/20_assembly_scaffolding_v2.pdf)
+
+Sequence models and classification
+
+
+* [Sequence modeling](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/21_sequence_modeling_v2.pdf)
+
+* [Markov chains](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/22_markov_chains_v2.pdf)
+
+    * Notebook: Markov chains ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_MarkovChain.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_MarkovChain.ipynb))
+
+    * Notebook: High-order Markov chains ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HighOrderMarkovChain.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HighOrderMarkovChain.ipynb))
+
+* [Hidden Markov models](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/23_hidden_markov_models_v2.pdf)
+
+    * Notebook: Hidden Markov Model ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HMM.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HMM.ipynb))
+
+* [Genes and gene finding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/24_gene_finding_v2.pdf)
+
+File formats
+
+* Notebook: FASTA ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb))
+* Notebook: FASTQ ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb))
+* Notebook: SAM ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb))
+
+Miscellaneous
+
+* Notebook: Radix sort ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb))
+* Notebook: Min hashing ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb))
+* Notebook: Minimizers ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb))
+* Notebook: RepeatMasker ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb))
+
+### Suffix Indexing
+
+*Notes added July, 2023*
+
+*[YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb) added summer, 2022 and updated summer, 2023*
+
+* [Tries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_05_tries_and_suffix_tries_1.pdf) ([YouTube](https://youtu.be/odyGCviFmXA))
+* Suffix Tries
+    * [Introduction](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_07_tries_and_suffix_tries_2.pdf) ([YouTube](https://youtu.be/llTjA5SeS7k))
+    * [Size](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_07_tries_and_suffix_tries_3.pdf) ([YouTube](https://youtu.be/BT1KVt0k35w))
+* Suffix Trees
+    * [Definition and Size](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_10_suffix_trees_defn.pdf) ([YouTube](https://youtu.be/y-BvaGxo0lo))
+    * [Building](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_15_suffix_trees_2.pdf) ([YouTube](https://youtu.be/Oj1wKc3CRL0))
+    * [Basic Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_20_suffix_trees_3.pdf) ([YouTube](https://youtu.be/A3p6HKfz4Cs))
+    * [Suffix Links](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_25_suffix_trees_4.pdf) ([YouTube](https://youtu.be/k6VJW6hzDZQ))
+    * [Matching Statistics: Definition](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_30_suffix_trees_5.pdf) ([YouTube](https://youtu.be/kogY5TZYgp8))
+    * [Matching Statistics on the Suffix Tree](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_35_suffix_trees_6.pdf) ([YouTube](https://youtu.be/ymg94N1sFvc))
+* Suffix Arrays
+    * [Definition and Size](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_05_suffix_arrays_1.pdf) ([YouTube](https://youtu.be/-qmvbpmS2bE))
+    * [Basic Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_10_suffix_arrays_2.pdf) ([YouTube](https://youtu.be/jFewnXFVsPc))
+    * [Building](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_15_suffix_arrays_3.pdf) ([YouTube](https://youtu.be/ZWlbhBjjwyA))
+    * [Min LCP skipping](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_20_suffix_arrays_4.pdf) ([YouTube](https://youtu.be/ZWlbhBjjwyA))
+    * [Maximum skipping](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_25_suffix_arrays_5.pdf) ([YouTube](https://youtu.be/Wc1WmGaKbac))
+    * [The Suffix Tree is Hiding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_30_suffix_arrays_6.pdf) ([YouTube](https://youtu.be/8zBseoLWUuI))
+
+### Burrows-Wheeler Indexing
+
+*Notes added May, 2020*
+
+*[YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu) added July 2020, updated in summer 2022 and 2023*
+
+* [Intro: Indexing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/205_intro_indexing.pdf) ([YouTube](https://youtu.be/5G2Db41pSHE))
+* [Entropy and Coding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/210_entropy_coding.pdf) ([YouTube](https://youtu.be/TepaLzgatAw))
+* [High Order Empirical Entropy](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/215_high_order_ent.pdf) ([YouTube](https://youtu.be/nNqPTcbX1s4))
+* Burrows-Wheeler Transform
+    * [Intro and Compression Boosting](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/220_bwt_intro_boost.pdf) ([YouTube](https://youtu.be/nNqPTcbX1s4))
+    * [Reversing the BWT](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/225_bwt_reverse.pdf) ([YouTube](https://youtu.be/GWFb_C4IR14))
+* Bitvectors
+    * [Bitvectors, Rank, Seclect, Access](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/230_bitvectors_rsa.pdf) ([YouTube](https://youtu.be/em7oHDoo-yY))
+    * [Jacobson’s Rank](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/235_jacobsons_rank.pdf) ([YouTube](https://youtu.be/M1sUZxXVjG8))
+    * [Clark’s Select](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/240_clarks_select.pdf) ([YouTube](https://youtu.be/_04wwUzqZCM))
+* Wavelet Trees
+    * [Definition and Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/245_wavelet_trees.pdf) ([YouTube](https://youtu.be/JszVzStky1E))
+    * [Space, Time, Huffman Shape](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/247_wavelet_trees2.pdf) ([YouTube](https://youtu.be/5oSakiWVC-w))
+* FM Index:
+    * [Efficient Reversal](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/250_bwt_match.pdf) ([YouTube](https://youtu.be/UHGgpfxlaiE))
+    * [Efficient Matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/252_bwt_match2.pdf) ([YouTube](https://youtu.be/DYyXgxYmSYU))
+* Wheeler Graphs
+    * [Substrings to Paths](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/255_wheeler_graph1.pdf) ([YouTube](https://youtu.be/_EgAui4_AX8))
+    * [BW Order for Graphs](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/257_wheeler_graph_1_point_5.pdf) ([YouTube](https://youtu.be/xk1BtHochTo))
+    * [Definition](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/270_wheeler_graph_3.pdf) ([YouTube](https://youtu.be/C17g1j2SiI8))
+    * [Consecutivity](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/274_wheeler_graph_4.pdf) ([YouTube](https://youtu.be/H3qE1Y5QXGw))
+    * [Data Structures and Matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/278_wheeler_graph_5.pdf) ([YouTube](https://youtu.be/oWj_dVv1sQQ))
+* BWT for Repetitive Texts (r-index)
+    * [Runs](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/300_rindex_1_clean.pdf) ([YouTube](https://youtu.be/Zf6r8XdYf-M))
+    * [Run-Length FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/304_rindex_2.pdf) ([YouTube](https://youtu.be/xT21EoBmmAc))
+    * [Toehold Lemma Setup](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf) ([YouTube](https://youtu.be/on-rmlQ_uT4))
+
+### Sketching and Randomized Data Structures
+
+*Notes added May, 2020*
+
+*[YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM) added July, 2020*, 16 videos
+
+* [Hash Tables and Probability](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/105_hash_and_prob_pub.pdf) (YouTube [part 1](https://youtu.be/HH1Hakswsus), [part 2](https://youtu.be/V9Qg3GzRWjk))
+* [Hashes and Randomness](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/110_randomization_pub.pdf) ([YouTube](https://youtu.be/XOl5RcDgZQY))
+* [Bloom filters](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/115_bloom_filters_pub.pdf) (YouTube [part 1](https://youtu.be/KaQ9wOrRwow), [part 2](https://youtu.be/9J8pRQ_EInA))
+    * Notebook: Shakespeare containment queries ([Py+Colab](https://colab.research.google.com/drive/1m0IYfq-oSJ3hnPBZOHjBl69DEzuqXN2c))
+* [Coupon Collector and More Bloom Filters](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/120_bloom_and_coupon_pub.pdf) ([YouTube](https://youtu.be/nZ7ymHPoS4g))
+    * Notebook: Coupon collector simulations ([Py+Colab](https://colab.research.google.com/drive/11STkPdfqOmXyxLuaJ0QSUQuAlZK4BVPp))
+* [Randomness and Independence](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/125_randomness_independence_pub.pdf) ([YouTube](https://youtu.be/5upF7f-ePHE))
+* [Universal hashing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/130_universal_hashing_pub.pdf)
+    * Use in Hash Table Proof ([YouTube](https://youtu.be/4y3EW_q9lfw))
+    * ax + b mod p family ([YouTube](https://youtu.be/HBW0OW5fR_A))
+* [Cardinality](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/135_cardinality_pub.pdf)
+    * Hat problem ([YouTube](https://youtu.be/y2Hv_wp_ziE))
+    * Proof and kth-Minimum Value ([YouTube](https://youtu.be/FokoeMFvOHc))
+* [Similarity and MinHash](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/140_similarity_pub.pdf) ([YouTube](https://youtu.be/aTwRpqUnQX8))
+    * Notebook: Shakespeare MinHash ([Py+Colab](https://colab.research.google.com/drive/1Onpf_o049D_fe2DJh87QFmqU1omI5DA8))
+* [Markov’s Inequality](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/145_markovs_ineq_pub.pdf) ([YouTube](https://youtu.be/8UeqtBxsnpU))
+* [CountMin sketch](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/150_countmin_pub.pdf)
+    * Definition and Point Query ([YouTube](https://youtu.be/hJitoHv4rAU))
+    * Proving Error Bound ([YouTube](https://youtu.be/5Mz6wWCqzfI))
+    * Conservative Update and Matrix Nature ([YouTube](https://youtu.be/vzKv87rvk3A))
+
+### C and C++ Programming
+
+*Last updated May 9, 2020*
+
+See [GitHub repo](https://github.com/BenLangmead/c-cpp-notes) with original markdown and compilation script
+
+* [Course goals](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/010_get_started.pdf)
+* [Course conventions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/015_conventions.pdf)
+* [Stages of compilation and Hello, World](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/020_stages_hello_world.pdf)
+* [Variables, types, operators](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/030_types_and_ops.pdf)
+* [Printing messages](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/035_printing.pdf)
+* [Decisions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/040_decisions.pdf)
+* [Arrays](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/050_arrays.pdf)
+* [Characters and Strings](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/060_chars_strings.pdf)
+* [Reading input](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/065_reading_input.pdf)
+* [Command line arguments](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/070_command_line_args.pdf)
+* [Assertions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/080_assertions.pdf)
+* [Math](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/090_math.pdf)
+* [Compiling and Linking](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/100_compile_link.pdf)
+* [Functions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/110_functions.pdf)
+* [Program structure](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/120_program_structure.pdf)
+* [Makefiles](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/130_makefiles.pdf)
+* [Memory](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/140_memory.pdf)
+* [Pointers](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/150_pointers.pdf)
+* [Pointers and Arrays](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/160_ptrs_arrays.pdf)
+* [Lifetime and Scope](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/170_lifetime_scope.pdf)
+* [Stack and Heap](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/180_stack_heap.pdf)
+* [Dynamic memory allocation](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/190_dynamic_mem.pdf)
+* [Debugging with valgrind](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/200_valgrind.pdf)
+* [Debugging with gdb](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/210_gdb.pdf)
+* [Structures](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/220_structs.pdf)
+* [Beyond 1D arrays](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/230_beyond_1d.pdf)
+* [Binary input/output](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/240_binary_io.pdf)
+* [Numeric types](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/250_numeric_types.pdf)
+* [Type casting and Promotion](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/260_casting_promotion.pdf)
+* [Bitwise operators](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/270_bitwise_ops.pdf)
+* [Linked lists](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/280_linked_lists.pdf)
+
+C++ programming
+
+* [C++ intro](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/500_cpp_intro.pdf)
+* [C++ I/O and Namespaces](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/510_io_namespaces.pdf)
+* [C++ strings](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/520_strings.pdf)
+* [Standard Template Library (STL)](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/530_stl_intro.pdf)
+* [STL Vector and Iterators](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/540_vector_iter.pdf)
+* [STL Map](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/550_map.pdf)
+* [More about Iterators](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/560_more_iterators.pdf)
+* [STL Pairs and Tuples](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/570_pair_tuple.pdf)
+* [References](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/580_references.pdf)
+* [Classes](http://://www.cs.jhu.edu/~langmea/resources/lecture_notes/600_classes.pdf)
+* [Constructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/610_constructors.pdf)
+* [New and Delete](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/620_new_delete.pdf)
+* [Non-default constructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/630_non_default_ctors.pdf)
+* [Destructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/640_destructors.pdf)
+* [Passing by Reference](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/650_pass_by_ref.pdf)
+* [Inheritance](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/660_inheritance.pdf)
+* [Polymorphism](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/670_polymorphism.pdf)
+* [Virtual Destructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/675_virt_dtors.pdf)
+* [Overloading](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/680_overloading.pdf)
+* [Enumerations](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/690_enum.pdf)
+* [Static Members](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/700_static_members.pdf)
+* [Object Oriented Design Principles](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/710_design_principles.pdf)
+* [Building Strings with stringstream](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/720_stringstream.pdf)
+* [File I/O with fstream](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/730_fstream.pdf)
+* [Exceptions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/740_exceptions.pdf)
+* [The Rule of 3](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/750_ruleof3.pdf)
+* [Template Functions](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/760_template_funcs.pdf)
+* [Template Classes](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/770_template_classes.pdf)
+* [Abstract Classes](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/780_abstract_classes.pdf)
+* [Writing a Container Class](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/790_writing_containers.pdf)
+* [Auto Type](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/800_auto.pdf)
+* [ranged_for loops](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/810_ranged_for.pdf)
+* [override keyword](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/820_override.pdf)
