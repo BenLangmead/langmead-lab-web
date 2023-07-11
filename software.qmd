@@ -1,3 +1,47 @@
 ---
 title: "Software"
 ---
+
+# Alignment
+
+* [Bowtie] -- fast short read alignment
+* [Bowtie 2]  -- fast gapped read alignment for short reads
+* [Qtip] -- mapping quality predictions
+* [Samovar] -- somatic mosaic variant detection
+* [Vargas] -- heuristic-free read alignment
+* [Arioc] by Richard Wilton -- fast GPU-based alignment
+* [HISAT] by Daehwan Kim -- fast spliced alignment
+
+## Pangenome alignment
+
+* [r-index] -- by Nicola Prezza with modifications by Taher Mun
+* [MONI] -- by Max Rossi
+* [SPUMONI]
+
+# Variant detection
+
+* [Samovar]
+
+# Large-scale Reanalysis
+
+## Recount project and related projects
+
+* [recount3]
+* [ASCOT] by Jonathan Ling
+* [REPAC] by Eddie Imada
+* (superseded) [Rail-dbGaP]
+* (superseded) [recount2]
+* (superseded) [recount]
+* (superseded) [Intropolis]
+
+## RNA-seq analysis
+
+* [Monorail] -- reproducible recount3 analysis pipeline
+* [Megadepth] -- RNA-seq coverage analysis
+* (superseded) [Rail-RNA]
+
+# Other
+
+* [minicore] -- fast k-means clustering
+
+{{< include _links.qmd >}}
