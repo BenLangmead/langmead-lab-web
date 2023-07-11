@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Langmead Lab @ JHU - Teaching Materials</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Langmead Lab @ JHU</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./software.html">
+ <span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pubs.html">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./teaching.html" aria-current="page">
+ <span class="menu-text">Teaching Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+ <span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#full-courses-online" id="toc-full-courses-online" class="nav-link active" data-scroll-target="#full-courses-online">Full courses online</a>
+  <ul class="collapse">
+  <li><a href="#algorithms-for-dna-sequencing" id="toc-algorithms-for-dna-sequencing" class="nav-link" data-scroll-target="#algorithms-for-dna-sequencing">Algorithms for DNA Sequencing</a></li>
+  </ul></li>
+  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a>
+  <ul class="collapse">
+  <li><a href="#computational-genomics" id="toc-computational-genomics" class="nav-link" data-scroll-target="#computational-genomics">Computational Genomics</a></li>
+  <li><a href="#suffix-indexing" id="toc-suffix-indexing" class="nav-link" data-scroll-target="#suffix-indexing">Suffix Indexing</a></li>
+  <li><a href="#burrows-wheeler-indexing" id="toc-burrows-wheeler-indexing" class="nav-link" data-scroll-target="#burrows-wheeler-indexing">Burrows-Wheeler Indexing</a></li>
+  <li><a href="#sketching-and-randomized-data-structures" id="toc-sketching-and-randomized-data-structures" class="nav-link" data-scroll-target="#sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</a></li>
+  <li><a href="#c-and-c-programming" id="toc-c-and-c-programming" class="nav-link" data-scroll-target="#c-and-c-programming">C and C++ Programming</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Teaching Materials</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>You are free to use these materials. Feel free to <a href="mailto:langmea@cs.jhu.edu">email me</a> to tell me how you are using them, or to ask for a copy of the original Keynote files.</p>
+<section id="full-courses-online" class="level2">
+<h2 class="anchored" data-anchor-id="full-courses-online">Full courses online</h2>
+<section id="algorithms-for-dna-sequencing" class="level3">
+<h3 class="anchored" data-anchor-id="algorithms-for-dna-sequencing">Algorithms for DNA Sequencing</h3>
+<ul>
+<li><a href="https://www.coursera.org/course/ads1">Full course</a> on Coursera</li>
+<li><a href="https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA">Lecture videos</a> on YouTube (55 lectures, about 7 minutes each)</li>
+<li><a href="https://github.com/BenLangmead/ads1-slides">Lecture notes</a> on GitHub</li>
+<li><a href="https://github.com/BenLangmead/ads1-notebooks">Jupyter notebooks</a> on GitHub</li>
+</ul>
+</section>
+</section>
+<section id="lecture-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h2>
+<section id="computational-genomics" class="level3">
+<h3 class="anchored" data-anchor-id="computational-genomics">Computational Genomics</h3>
+<p>Introductory</p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/01_genomics_comp_genomics_v2.pdf">What are Genomics and Computational Genomics?</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/02_dna_sequencing_v2.pdf">DNA sequencing</a></li>
+</ul>
+<p>Strings and matching</p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/03_strings_exact_matching_v2.pdf">Strings and exact matching</a>
+<ul>
+<li>Notebook: Strings (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_StringBasics.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_StringBasics.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_001_StringBasics.ipynb">Go</a>)</li>
+<li>Notebook: Naive exact matching (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Naive.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Naive.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_002_Naive.ipynb">Go</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/04_boyer_moore_v2.pdf">Boyer-Moore</a>
+<ul>
+<li>Notebook: Z algorithm (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ZAlgorithm.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ZAlgorithm.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_003_ZAlgorithm.ipynb">Go</a>)</li>
+<li>Notebook: Boyer-Moore (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMoore.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMoore.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_004_BoyerMoore.ipynb">Go</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/06_approximate_matching_v2.pdf">Approximate matching</a>
+<ul>
+<li>Notebook: Naive approximate (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_005_NaiveApprox.ipynb">Go</a>)</li>
+<li>Notebook: Pigeonhole principle (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb">Python</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_006_BoyerMooreApprox.ipynb">Go</a>)</li>
+</ul></li>
+</ul>
+<p>Indexing</p>
+<ul>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/05_indexing_v2.pdf">Indexing with substrings</a></p>
+<ul>
+<li>Notebook: Substring indexes (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex1.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex1.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_007_InvertedIndex1.ipynb">Go</a>)</li>
+<li>Notebook: Grouped and ordered indexes (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex2.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_InvertedIndex2.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_008_InvertedIndex2.ipynb">Go</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/07_tries_and_suffix_tries_v2.pdf">Tries and suffix tries</a></p>
+<ul>
+<li>Notebook: Trie map (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_TrieMap.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_TrieMap.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_009_TrieMap.ipynb">Go</a>)</li>
+<li>Notebook: Suffix trie (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTrie.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTrie.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_010_SuffixTrie.ipynb">Go</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/08_suffix_trees_v2.pdf">Suffix trees</a></p>
+<ul>
+<li>Notebook: Suffix tree (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_011_SuffixTree.ipynb">Go</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/09_suffix_arrays_v2.pdf">Suffix arrays</a></p>
+<ul>
+<li>Notebook: Binary search (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb">Python</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb">Py+Colab</a>, <a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_012_BinarySearch.ipynb">Go</a>)</li>
+<li>Notebook: Suffix-array binary search (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Longest common prefix (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb">Py+Colab</a>)</li>
+<li>Notebook: From suffix tree to LCP/suffix array (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/10_bwt_and_fm_index_v2.pdf">Burrows-Wheeler Transform and FM Index</a></p>
+<ul>
+<li>Notebook: Burrows-Wheeler Transform (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Reversing the BWT (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb">Py+Colab</a>)</li>
+<li>Notebook: FM Index (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb">Py+Colab</a>)</li>
+</ul></li>
+</ul>
+<p>Sequence alignment</p>
+<ul>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/11_dp_and_edit_dist_v2.pdf">Dynamic programming and edit distance</a></p>
+<ul>
+<li>Notebook: Hamming distance, edit distance, dynamic programming (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_EditDist.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_EditDist.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Approximate matching dynamic programming (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEditDp.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEditDp.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/12_global_alignment_v2.pdf">Global alignment</a></p>
+<ul>
+<li>Notebook: Global alignment (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/13_local_alignment_v2.pdf">Local alignment</a></p>
+<ul>
+<li>Notebook: Local alignment (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/14_dp_in_less_time_space_v2.pdf">Dynamic programming in less time and space</a></p></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/15_index_assisted_v2.pdf">Index-assisted approximate matching and read alignment</a></p>
+<ul>
+<li>Notebook: Index-assisted pigeonhole principle (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEdit.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_kEdit.ipynb">Py+Colab</a>)</li>
+</ul></li>
+</ul>
+<p>Assembly</p>
+<ul>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/16_assembly_scs_v2.pdf">Assembly &amp; Shortest Common Superstring</a></p>
+<ul>
+<li>Notebook: Brute-force SCS (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Finding overlaps (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SCS.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Greedy SCS (<a href="https://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/17_assembly_dbg_v2.pdf">De Bruijn Graph Assembly</a></p>
+<ul>
+<li>Notebook: Simple De Bruijn graph (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBriujn.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBruijn.ipynb">Py+Colab</a>)</li>
+<li>Notebook: De Bruijn graph (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/18_assembly_olc_v2.pdf">In practice: Overlap Layout Consensus</a></p></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/19_assembly_dbg2_v2.pdf">In practice: De Bruijn Graphs</a></p>
+<ul>
+<li>Notebook: Error correction (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/20_assembly_scaffolding_v2.pdf">In practice: Scaffolding</a></p></li>
+</ul>
+<p>Sequence models and classification</p>
+<ul>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/21_sequence_modeling_v2.pdf">Sequence modeling</a></p></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/22_markov_chains_v2.pdf">Markov chains</a></p>
+<ul>
+<li><p>Notebook: Markov chains (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_MarkovChain.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_MarkovChain.ipynb">Py+Colab</a>)</p></li>
+<li><p>Notebook: High-order Markov chains (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HighOrderMarkovChain.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HighOrderMarkovChain.ipynb">Py+Colab</a>)</p></li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/23_hidden_markov_models_v2.pdf">Hidden Markov models</a></p>
+<ul>
+<li>Notebook: Hidden Markov Model (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HMM.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_HMM.ipynb">Py+Colab</a>)</li>
+</ul></li>
+<li><p><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/24_gene_finding_v2.pdf">Genes and gene finding</a></p></li>
+</ul>
+<p>File formats</p>
+<ul>
+<li>Notebook: FASTA (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb">Py+Colab</a>)</li>
+<li>Notebook: FASTQ (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb">Py+Colab</a>)</li>
+<li>Notebook: SAM (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb">Py+Colab</a>)</li>
+</ul>
+<p>Miscellaneous</p>
+<ul>
+<li>Notebook: Radix sort (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Min hashing (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb">Py+Colab</a>)</li>
+<li>Notebook: Minimizers (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb">Py+Colab</a>)</li>
+<li>Notebook: RepeatMasker (<a href="http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb">Py+Colab</a>)</li>
+</ul>
+</section>
+<section id="suffix-indexing" class="level3">
+<h3 class="anchored" data-anchor-id="suffix-indexing">Suffix Indexing</h3>
+<p><em>Notes added July, 2023</em></p>
+<p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb">YouTube playlist</a> added summer, 2022 and updated summer, 2023</em></p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_05_tries_and_suffix_tries_1.pdf">Tries</a> (<a href="https://youtu.be/odyGCviFmXA">YouTube</a>)</li>
+<li>Suffix Tries
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_07_tries_and_suffix_tries_2.pdf">Introduction</a> (<a href="https://youtu.be/llTjA5SeS7k">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_07_tries_and_suffix_tries_3.pdf">Size</a> (<a href="https://youtu.be/BT1KVt0k35w">YouTube</a>)</li>
+</ul></li>
+<li>Suffix Trees
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_10_suffix_trees_defn.pdf">Definition and Size</a> (<a href="https://youtu.be/y-BvaGxo0lo">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_15_suffix_trees_2.pdf">Building</a> (<a href="https://youtu.be/Oj1wKc3CRL0">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_20_suffix_trees_3.pdf">Basic Queries</a> (<a href="https://youtu.be/A3p6HKfz4Cs">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_25_suffix_trees_4.pdf">Suffix Links</a> (<a href="https://youtu.be/k6VJW6hzDZQ">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_30_suffix_trees_5.pdf">Matching Statistics: Definition</a> (<a href="https://youtu.be/kogY5TZYgp8">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_01_35_suffix_trees_6.pdf">Matching Statistics on the Suffix Tree</a> (<a href="https://youtu.be/ymg94N1sFvc">YouTube</a>)</li>
+</ul></li>
+<li>Suffix Arrays
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_05_suffix_arrays_1.pdf">Definition and Size</a> (<a href="https://youtu.be/-qmvbpmS2bE">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_10_suffix_arrays_2.pdf">Basic Queries</a> (<a href="https://youtu.be/jFewnXFVsPc">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_15_suffix_arrays_3.pdf">Building</a> (<a href="https://youtu.be/ZWlbhBjjwyA">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_20_suffix_arrays_4.pdf">Min LCP skipping</a> (<a href="https://youtu.be/ZWlbhBjjwyA">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_25_suffix_arrays_5.pdf">Maximum skipping</a> (<a href="https://youtu.be/Wc1WmGaKbac">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_30_suffix_arrays_6.pdf">The Suffix Tree is Hiding</a> (<a href="https://youtu.be/8zBseoLWUuI">YouTube</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="burrows-wheeler-indexing" class="level3">
+<h3 class="anchored" data-anchor-id="burrows-wheeler-indexing">Burrows-Wheeler Indexing</h3>
+<p><em>Notes added May, 2020</em></p>
+<p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu">YouTube playlist</a> added July 2020, updated in summer 2022 and 2023</em></p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/205_intro_indexing.pdf">Intro: Indexing</a> (<a href="https://youtu.be/5G2Db41pSHE">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/210_entropy_coding.pdf">Entropy and Coding</a> (<a href="https://youtu.be/TepaLzgatAw">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/215_high_order_ent.pdf">High Order Empirical Entropy</a> (<a href="https://youtu.be/nNqPTcbX1s4">YouTube</a>)</li>
+<li>Burrows-Wheeler Transform
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/220_bwt_intro_boost.pdf">Intro and Compression Boosting</a> (<a href="https://youtu.be/nNqPTcbX1s4">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/225_bwt_reverse.pdf">Reversing the BWT</a> (<a href="https://youtu.be/GWFb_C4IR14">YouTube</a>)</li>
+</ul></li>
+<li>Bitvectors
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/230_bitvectors_rsa.pdf">Bitvectors, Rank, Seclect, Access</a> (<a href="https://youtu.be/em7oHDoo-yY">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/235_jacobsons_rank.pdf">Jacobson’s Rank</a> (<a href="https://youtu.be/M1sUZxXVjG8">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/240_clarks_select.pdf">Clark’s Select</a> (<a href="https://youtu.be/_04wwUzqZCM">YouTube</a>)</li>
+</ul></li>
+<li>Wavelet Trees
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/245_wavelet_trees.pdf">Definition and Queries</a> (<a href="https://youtu.be/JszVzStky1E">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/247_wavelet_trees2.pdf">Space, Time, Huffman Shape</a> (<a href="https://youtu.be/5oSakiWVC-w">YouTube</a>)</li>
+</ul></li>
+<li>FM Index:
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/250_bwt_match.pdf">Efficient Reversal</a> (<a href="https://youtu.be/UHGgpfxlaiE">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/252_bwt_match2.pdf">Efficient Matching</a> (<a href="https://youtu.be/DYyXgxYmSYU">YouTube</a>)</li>
+</ul></li>
+<li>Wheeler Graphs
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/255_wheeler_graph1.pdf">Substrings to Paths</a> (<a href="https://youtu.be/_EgAui4_AX8">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/257_wheeler_graph_1_point_5.pdf">BW Order for Graphs</a> (<a href="https://youtu.be/xk1BtHochTo">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/270_wheeler_graph_3.pdf">Definition</a> (<a href="https://youtu.be/C17g1j2SiI8">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/274_wheeler_graph_4.pdf">Consecutivity</a> (<a href="https://youtu.be/H3qE1Y5QXGw">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/278_wheeler_graph_5.pdf">Data Structures and Matching</a> (<a href="https://youtu.be/oWj_dVv1sQQ">YouTube</a>)</li>
+</ul></li>
+<li>BWT for Repetitive Texts (r-index)
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/300_rindex_1_clean.pdf">Runs</a> (<a href="https://youtu.be/Zf6r8XdYf-M">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/304_rindex_2.pdf">Run-Length FM Index</a> (<a href="https://youtu.be/xT21EoBmmAc">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf">Toehold Lemma Setup</a> (<a href="https://youtu.be/on-rmlQ_uT4">YouTube</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="sketching-and-randomized-data-structures" class="level3">
+<h3 class="anchored" data-anchor-id="sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</h3>
+<p><em>Notes added May, 2020</em></p>
+<p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM">YouTube playlist</a> added July, 2020</em>, 16 videos</p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/105_hash_and_prob_pub.pdf">Hash Tables and Probability</a> (YouTube <a href="https://youtu.be/HH1Hakswsus">part 1</a>, <a href="https://youtu.be/V9Qg3GzRWjk">part 2</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/110_randomization_pub.pdf">Hashes and Randomness</a> (<a href="https://youtu.be/XOl5RcDgZQY">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/115_bloom_filters_pub.pdf">Bloom filters</a> (YouTube <a href="https://youtu.be/KaQ9wOrRwow">part 1</a>, <a href="https://youtu.be/9J8pRQ_EInA">part 2</a>)
+<ul>
+<li>Notebook: Shakespeare containment queries (<a href="https://colab.research.google.com/drive/1m0IYfq-oSJ3hnPBZOHjBl69DEzuqXN2c">Py+Colab</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/120_bloom_and_coupon_pub.pdf">Coupon Collector and More Bloom Filters</a> (<a href="https://youtu.be/nZ7ymHPoS4g">YouTube</a>)
+<ul>
+<li>Notebook: Coupon collector simulations (<a href="https://colab.research.google.com/drive/11STkPdfqOmXyxLuaJ0QSUQuAlZK4BVPp">Py+Colab</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/125_randomness_independence_pub.pdf">Randomness and Independence</a> (<a href="https://youtu.be/5upF7f-ePHE">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/130_universal_hashing_pub.pdf">Universal hashing</a>
+<ul>
+<li>Use in Hash Table Proof (<a href="https://youtu.be/4y3EW_q9lfw">YouTube</a>)</li>
+<li>ax + b mod p family (<a href="https://youtu.be/HBW0OW5fR_A">YouTube</a>)</li>
+</ul></li>
+<li><a href="https://www.cs.jhu.edu/~langmea/resources/lecture_notes/135_cardinality_pub.pdf">Cardinality</a>
+<ul>
+<li>Hat problem (<a href="https://youtu.be/y2Hv_wp_ziE">YouTube</a>)</li>
+<li>Proof and kth-Minimum Value (<a href="https://youtu.be/FokoeMFvOHc">YouTube</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/140_similarity_pub.pdf">Similarity and MinHash</a> (<a href="https://youtu.be/aTwRpqUnQX8">YouTube</a>)
+<ul>
+<li>Notebook: Shakespeare MinHash (<a href="https://colab.research.google.com/drive/1Onpf_o049D_fe2DJh87QFmqU1omI5DA8">Py+Colab</a>)</li>
+</ul></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/145_markovs_ineq_pub.pdf">Markov’s Inequality</a> (<a href="https://youtu.be/8UeqtBxsnpU">YouTube</a>)</li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/150_countmin_pub.pdf">CountMin sketch</a>
+<ul>
+<li>Definition and Point Query (<a href="https://youtu.be/hJitoHv4rAU">YouTube</a>)</li>
+<li>Proving Error Bound (<a href="https://youtu.be/5Mz6wWCqzfI">YouTube</a>)</li>
+<li>Conservative Update and Matrix Nature (<a href="https://youtu.be/vzKv87rvk3A">YouTube</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="c-and-c-programming" class="level3">
+<h3 class="anchored" data-anchor-id="c-and-c-programming">C and C++ Programming</h3>
+<p><em>Last updated May 9, 2020</em></p>
+<p>See <a href="https://github.com/BenLangmead/c-cpp-notes">GitHub repo</a> with original markdown and compilation script</p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/010_get_started.pdf">Course goals</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/015_conventions.pdf">Course conventions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/020_stages_hello_world.pdf">Stages of compilation and Hello, World</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/030_types_and_ops.pdf">Variables, types, operators</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/035_printing.pdf">Printing messages</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/040_decisions.pdf">Decisions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/050_arrays.pdf">Arrays</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/060_chars_strings.pdf">Characters and Strings</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/065_reading_input.pdf">Reading input</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/070_command_line_args.pdf">Command line arguments</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/080_assertions.pdf">Assertions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/090_math.pdf">Math</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/100_compile_link.pdf">Compiling and Linking</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/110_functions.pdf">Functions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/120_program_structure.pdf">Program structure</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/130_makefiles.pdf">Makefiles</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/140_memory.pdf">Memory</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/150_pointers.pdf">Pointers</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/160_ptrs_arrays.pdf">Pointers and Arrays</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/170_lifetime_scope.pdf">Lifetime and Scope</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/180_stack_heap.pdf">Stack and Heap</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/190_dynamic_mem.pdf">Dynamic memory allocation</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/200_valgrind.pdf">Debugging with valgrind</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/210_gdb.pdf">Debugging with gdb</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/220_structs.pdf">Structures</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/230_beyond_1d.pdf">Beyond 1D arrays</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/240_binary_io.pdf">Binary input/output</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/250_numeric_types.pdf">Numeric types</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/260_casting_promotion.pdf">Type casting and Promotion</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/270_bitwise_ops.pdf">Bitwise operators</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/280_linked_lists.pdf">Linked lists</a></li>
+</ul>
+<p>C++ programming</p>
+<ul>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/500_cpp_intro.pdf">C++ intro</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/510_io_namespaces.pdf">C++ I/O and Namespaces</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/520_strings.pdf">C++ strings</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/530_stl_intro.pdf">Standard Template Library (STL)</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/540_vector_iter.pdf">STL Vector and Iterators</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/550_map.pdf">STL Map</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/560_more_iterators.pdf">More about Iterators</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/570_pair_tuple.pdf">STL Pairs and Tuples</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/580_references.pdf">References</a></li>
+<li><a href="http://://www.cs.jhu.edu/~langmea/resources/lecture_notes/600_classes.pdf">Classes</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/610_constructors.pdf">Constructors</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/620_new_delete.pdf">New and Delete</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/630_non_default_ctors.pdf">Non-default constructors</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/640_destructors.pdf">Destructors</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/650_pass_by_ref.pdf">Passing by Reference</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/660_inheritance.pdf">Inheritance</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/670_polymorphism.pdf">Polymorphism</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/675_virt_dtors.pdf">Virtual Destructors</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/680_overloading.pdf">Overloading</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/690_enum.pdf">Enumerations</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/700_static_members.pdf">Static Members</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/710_design_principles.pdf">Object Oriented Design Principles</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/720_stringstream.pdf">Building Strings with stringstream</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/730_fstream.pdf">File I/O with fstream</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/740_exceptions.pdf">Exceptions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/750_ruleof3.pdf">The Rule of 3</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/760_template_funcs.pdf">Template Functions</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/770_template_classes.pdf">Template Classes</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/780_abstract_classes.pdf">Abstract Classes</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/790_writing_containers.pdf">Writing a Container Class</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/800_auto.pdf">Auto Type</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/810_ranged_for.pdf">ranged_for loops</a></li>
+<li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/820_override.pdf">override keyword</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
