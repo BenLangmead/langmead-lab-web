@@ -1,0 +1,1 @@
+Sitemap: https://github.com/BenLangmead/langmead-lab-web/sitemap.xml
