@@ -46,28 +46,56 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Bowtie – fast short read alignment\nBowtie 2 – fast gapped read alignment for short reads\nQtip – mapping quality predictions\nSamovar – somatic mosaic variant detection\nVargas – heuristic-free read alignment\nArioc by Richard Wilton – fast GPU-based alignment\nHISAT by Daehwan Kim – fast spliced alignment\n\n\n\n\nr-index – by Nicola Prezza with modifications by Taher Mun\nMONI – by Max Rossi\nSPUMONI"
+    "text": "Bowtie – fast short read alignment\nBowtie 2 – fast gapped read alignment for short reads\nQtip – mapping quality predictions\nSamovar – somatic mosaic variant detection\nVargas – heuristic-free read alignment\nArioc by Richard Wilton – fast GPU-based alignment\nHISAT by Daehwan Kim – fast spliced alignment"
   },
   {
-    "objectID": "software.html#pangenome-alignment",
-    "href": "software.html#pangenome-alignment",
+    "objectID": "software.html#alignment",
+    "href": "software.html#alignment",
     "title": "Software",
     "section": "",
-    "text": "r-index – by Nicola Prezza with modifications by Taher Mun\nMONI – by Max Rossi\nSPUMONI"
+    "text": "Bowtie – fast short read alignment\nBowtie 2 – fast gapped read alignment for short reads\nQtip – mapping quality predictions\nSamovar – somatic mosaic variant detection\nVargas – heuristic-free read alignment\nArioc by Richard Wilton – fast GPU-based alignment\nHISAT by Daehwan Kim – fast spliced alignment"
   },
   {
-    "objectID": "software.html#recount-project-and-related-projects",
-    "href": "software.html#recount-project-and-related-projects",
+    "objectID": "software.html#pangenome-indexing-and-alignment",
+    "href": "software.html#pangenome-indexing-and-alignment",
     "title": "Software",
-    "section": "Recount project and related projects",
-    "text": "Recount project and related projects\n\nrecount3\nASCOT by Jonathan Ling\nREPAC by Eddie Imada\n(superseded) Rail-dbGaP\n(superseded) recount2\n(superseded) recount\n(superseded) Intropolis"
+    "section": "Pangenome Indexing and Alignment",
+    "text": "Pangenome Indexing and Alignment\n\nFORGe – selecting variation to include in a pangenome\nReference Flow – multi-genome alignment\nr-index – by Nicola Prezza with modifications by Taher Mun, pangenome index\nMONI – by Max Rossi, fast MEM finding with a pangenome index\nSPUMONI – fast classification with a pangenome index\nrowbowt – efficient pangenome genotyping\nLevioSAM – lift-over for pangenome alignment\nLevioSAM 2 – pangenome alignment across structurally distinct assemblies"
+  },
+  {
+    "objectID": "software.html#genomic-sketching",
+    "href": "software.html#genomic-sketching",
+    "title": "Software",
+    "section": "Genomic Sketching",
+    "text": "Genomic Sketching\n\nDashing – genomic sketching with HyperLogLog\nDashing 2 – genomic sketching with SetSketch\nDandD – k-independent measurement of sequence content & similarity"
+  },
+  {
+    "objectID": "software.html#large-scale-reanalysis",
+    "href": "software.html#large-scale-reanalysis",
+    "title": "Software",
+    "section": "Large-scale Reanalysis",
+    "text": "Large-scale Reanalysis\n\nrecount3 – vast compendium of analyzed, summarized RNA-seq experiments\nSnaptron – queryable index over recount\nASCOT by Jonathan Ling – catalog of cell type specific splicing\nFC-R2 by Eddie Imada & Diego Fernando Sanchez – recount data analyzed with FANTOM annotations\nREPAC by Eddie Imada – catalog of alternate polyadenylation\n(superseded) Rail-dbGaP\n(superseded) recount2\n(superseded) recount\n(superseded) Intropolis\n(superseded) Myrna\n(superseded) Crossbow"
+  },
+  {
+    "objectID": "software.html#variant-detection",
+    "href": "software.html#variant-detection",
+    "title": "Software",
+    "section": "Variant detection",
+    "text": "Variant detection\n\nSamovar – somatic mosaic variant detection"
   },
   {
     "objectID": "software.html#rna-seq-analysis",
     "href": "software.html#rna-seq-analysis",
     "title": "Software",
     "section": "RNA-seq analysis",
-    "text": "RNA-seq analysis\n\nMonorail – reproducible recount3 analysis pipeline\nMegadepth – RNA-seq coverage analysis\n(superseded) Rail-RNA"
+    "text": "RNA-seq analysis\n\nMonorail – reproducible recount3 analysis pipeline\nMegadepth – RNA-seq coverage analysis\nPolyester by Alyssa Frazee – RNA-seq read simulator\nBoiler – compression of RNA-seq alignments\n(superseded) Rail-RNA"
+  },
+  {
+    "objectID": "software.html#other",
+    "href": "software.html#other",
+    "title": "Software",
+    "section": "Other",
+    "text": "Other\n\nLighter by Li Song – short read error correction\nminicore – fast k-means clustering\nBsmooth – bisulfity sequencing data analysis"
   },
   {
     "objectID": "people.html",

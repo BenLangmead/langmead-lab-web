@@ -121,16 +121,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#alignment" id="toc-alignment" class="nav-link active" data-scroll-target="#alignment">Alignment</a>
-  <ul class="collapse">
-  <li><a href="#pangenome-alignment" id="toc-pangenome-alignment" class="nav-link" data-scroll-target="#pangenome-alignment">Pangenome alignment</a></li>
-  </ul></li>
+  <li><a href="#alignment" id="toc-alignment" class="nav-link active" data-scroll-target="#alignment">Alignment</a></li>
+  <li><a href="#pangenome-indexing-and-alignment" id="toc-pangenome-indexing-and-alignment" class="nav-link" data-scroll-target="#pangenome-indexing-and-alignment">Pangenome Indexing and Alignment</a></li>
+  <li><a href="#genomic-sketching" id="toc-genomic-sketching" class="nav-link" data-scroll-target="#genomic-sketching">Genomic Sketching</a></li>
+  <li><a href="#large-scale-reanalysis" id="toc-large-scale-reanalysis" class="nav-link" data-scroll-target="#large-scale-reanalysis">Large-scale Reanalysis</a></li>
   <li><a href="#variant-detection" id="toc-variant-detection" class="nav-link" data-scroll-target="#variant-detection">Variant detection</a></li>
-  <li><a href="#large-scale-reanalysis" id="toc-large-scale-reanalysis" class="nav-link" data-scroll-target="#large-scale-reanalysis">Large-scale Reanalysis</a>
-  <ul class="collapse">
-  <li><a href="#recount-project-and-related-projects" id="toc-recount-project-and-related-projects" class="nav-link" data-scroll-target="#recount-project-and-related-projects">Recount project and related projects</a></li>
   <li><a href="#rna-seq-analysis" id="toc-rna-seq-analysis" class="nav-link" data-scroll-target="#rna-seq-analysis">RNA-seq analysis</a></li>
-  </ul></li>
   <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
   </ul>
 </nav>
@@ -155,8 +151,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="alignment" class="level1">
-<h1>Alignment</h1>
+<section id="alignment" class="level2">
+<h2 class="anchored" data-anchor-id="alignment">Alignment</h2>
 <ul>
 <li><a href="http://bowtie-bio.sourceforge.net/">Bowtie</a> – fast short read alignment</li>
 <li><a href="http://bowtie-bio.sourceforge.net/bowtie2">Bowtie 2</a> – fast gapped read alignment for short reads</li>
@@ -166,33 +162,48 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/RWilton/Arioc">Arioc</a> by Richard Wilton – fast GPU-based alignment</li>
 <li><a href="https://github.com/DaehwanKimLab/hisat">HISAT</a> by Daehwan Kim – fast spliced alignment</li>
 </ul>
-<section id="pangenome-alignment" class="level2">
-<h2 class="anchored" data-anchor-id="pangenome-alignment">Pangenome alignment</h2>
+</section>
+<section id="pangenome-indexing-and-alignment" class="level2">
+<h2 class="anchored" data-anchor-id="pangenome-indexing-and-alignment">Pangenome Indexing and Alignment</h2>
 <ul>
-<li><a href="https://github.com/alshai/r-index">r-index</a> – by Nicola Prezza with modifications by Taher Mun</li>
-<li><a href="https://github.com/maxrossi91/moni">MONI</a> – by Max Rossi</li>
-<li><a href="https://github.com/oma219/spumoni" title="SPUMONI 1&amp;2">SPUMONI</a></li>
+<li><a href="https://github.com/langmead-lab/FORGe">FORGe</a> – selecting variation to include in a pangenome</li>
+<li><a href="https://github.com/langmead-lab/reference_flow">Reference Flow</a> – multi-genome alignment</li>
+<li><a href="https://github.com/alshai/r-index">r-index</a> – by Nicola Prezza with modifications by Taher Mun, pangenome index</li>
+<li><a href="https://github.com/maxrossi91/moni">MONI</a> – by Max Rossi, fast MEM finding with a pangenome index</li>
+<li><a href="https://github.com/oma219/spumoni" title="SPUMONI 1&amp;2">SPUMONI</a> – fast classification with a pangenome index</li>
+<li><a href="https://github.com/alshai/rowbowt">rowbowt</a> – efficient pangenome genotyping</li>
+<li><a href="https://github.com/alshai/levioSAM">LevioSAM</a> – lift-over for pangenome alignment</li>
+<li><a href="https://github.com/milkschen/leviosam2">LevioSAM 2</a> – pangenome alignment across structurally distinct assemblies</li>
 </ul>
 </section>
-</section>
-<section id="variant-detection" class="level1">
-<h1>Variant detection</h1>
+<section id="genomic-sketching" class="level2">
+<h2 class="anchored" data-anchor-id="genomic-sketching">Genomic Sketching</h2>
 <ul>
-<li><a href="https://github.com/cdarby/samovar">Samovar</a></li>
+<li><a href="https://github.com/dnbaker/dashing">Dashing</a> – genomic sketching with HyperLogLog</li>
+<li><a href="https://github.com/dnbaker/dashing2">Dashing 2</a> – genomic sketching with SetSketch</li>
+<li><a href="https://github.com/jessicabonnie/dandd">DandD</a> – k-independent measurement of sequence content &amp; similarity</li>
 </ul>
 </section>
-<section id="large-scale-reanalysis" class="level1">
-<h1>Large-scale Reanalysis</h1>
-<section id="recount-project-and-related-projects" class="level2">
-<h2 class="anchored" data-anchor-id="recount-project-and-related-projects">Recount project and related projects</h2>
+<section id="large-scale-reanalysis" class="level2">
+<h2 class="anchored" data-anchor-id="large-scale-reanalysis">Large-scale Reanalysis</h2>
 <ul>
-<li><a href="https://rna.recount.bio/">recount3</a></li>
-<li><a href="http://ascot.cs.jhu.edu/">ASCOT</a> by Jonathan Ling</li>
-<li><a href="https://github.com/eddieimada/REPAC">REPAC</a> by Eddie Imada</li>
+<li><a href="https://rna.recount.bio/">recount3</a> – vast compendium of analyzed, summarized RNA-seq experiments</li>
+<li><a href="https://snaptron.cs.jhu.edu/">Snaptron</a> – queryable index over recount</li>
+<li><a href="http://ascot.cs.jhu.edu/">ASCOT</a> by Jonathan Ling – catalog of cell type specific splicing</li>
+<li><a href="http://marchionnilab.org/fcr2.html">FC-R2</a> by Eddie Imada &amp; Diego Fernando Sanchez – recount data analyzed with FANTOM annotations</li>
+<li><a href="https://github.com/eddieimada/REPAC">REPAC</a> by Eddie Imada – catalog of alternate polyadenylation</li>
 <li>(superseded) <a href="https://github.com/nellore/rail-dbgap">Rail-dbGaP</a></li>
 <li>(superseded) <a href="https://jhubiostatistics.shinyapps.io/recount/">recount2</a></li>
 <li>(superseded) <a href="https://bowtie-bio.sourceforge.net/recount/">recount</a></li>
 <li>(superseded) <a href="https://github.com/nellore/intropolis">Intropolis</a></li>
+<li>(superseded) <a href="https://bowtie-bio.sourceforge.net/myrna/index.shtml">Myrna</a></li>
+<li>(superseded) <a href="https://bowtie-bio.sourceforge.net/crossbow/index.shtml">Crossbow</a></li>
+</ul>
+</section>
+<section id="variant-detection" class="level2">
+<h2 class="anchored" data-anchor-id="variant-detection">Variant detection</h2>
+<ul>
+<li><a href="https://github.com/cdarby/samovar">Samovar</a> – somatic mosaic variant detection</li>
 </ul>
 </section>
 <section id="rna-seq-analysis" class="level2">
@@ -200,14 +211,17 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://github.com/langmead-lab/monorail-external">Monorail</a> – reproducible recount3 analysis pipeline</li>
 <li><a href="https://github.com/ChristopherWilks/megadepth">Megadepth</a> – RNA-seq coverage analysis</li>
+<li><a href="https://bioconductor.org/packages/release/bioc/html/polyester.html">Polyester</a> by Alyssa Frazee – RNA-seq read simulator</li>
+<li><a href="https://github.com/jpritt/boiler">Boiler</a> – compression of RNA-seq alignments</li>
 <li>(superseded) <a href="https://github.com/nellore/rail">Rail-RNA</a></li>
 </ul>
 </section>
-</section>
-<section id="other" class="level1">
-<h1>Other</h1>
+<section id="other" class="level2">
+<h2 class="anchored" data-anchor-id="other">Other</h2>
 <ul>
+<li><a href="https://github.com/mourisl/Lighter">Lighter</a> by Li Song – short read error correction</li>
 <li><a href="https://github.com/dnbaker/minicore">minicore</a> – fast k-means clustering</li>
+<li><a href="https://bioconductor.org/packages/release/bioc/html/bsseq.html">Bsmooth</a> – bisulfity sequencing data analysis</li>
 </ul>
 
 
