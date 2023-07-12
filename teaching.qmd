@@ -35,7 +35,7 @@ Strings and matching
 
 * [Approximate matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/06_approximate_matching_v2.pdf)
     * Notebook: Naive approximate ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_NaiveApprox.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_005_NaiveApprox.ipynb))
-    * Notebook: Pigeonhole principle ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Py+Colab](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_006_BoyerMooreApprox.ipynb))
+    * Notebook: Pigeonhole principle ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BoyerMooreApprox.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_006_BoyerMooreApprox.ipynb))
 
 Indexing
 
@@ -52,14 +52,14 @@ Indexing
     * Notebook: Suffix tree ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTree.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_011_SuffixTree.ipynb))
 
 * [Suffix arrays](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/09_suffix_arrays_v2.pdf)
-    * Notebook: Binary search ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Py+Colab](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynbhttps://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_012_BinarySearch.ipynb))
+    * Notebook: Binary search ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Bisect.ipynb), [Go](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_go_012_BinarySearch.ipynb))
     * Notebook: Suffix-array binary search ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BinarySearchSA.ipynb))
     * Notebook: Longest common prefix ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_LCP_from_LCP1.ipynb))
     * Notebook: From suffix tree to LCP/suffix array ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SuffixTreeToSALcp.ipynb))
 
 * [Burrows-Wheeler Transform and FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/10_bwt_and_fm_index_v2.pdf)
     * Notebook: Burrows-Wheeler Transform ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_SimpleBuild.ipynb))
-    * Notebook: Reversing the BWT ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb))
+    * Notebook: Reversing the BWT ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_BWT_Reverse.ipynb))
     * Notebook: FM Index ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_FmIndex.ipynb))
 
 Sequence alignment
@@ -72,7 +72,7 @@ Sequence alignment
     * Notebook: Global alignment ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Global.ipynb))
 
 * [Local alignment](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/13_local_alignment_v2.pdf)
-    * Notebook: Local alignment ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynbhttp://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb))
+    * Notebook: Local alignment ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_DP_Local.ipynb))
 
 * [Dynamic programming in less time and space](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/14_dp_in_less_time_space_v2.pdf)
 
@@ -88,7 +88,7 @@ Assembly
     * Notebook: Greedy SCS ([Python](https://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_GreedySCS.ipynb))
 
 * [De Bruijn Graph Assembly](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/17_assembly_dbg_v2.pdf)
-    * Notebook: Simple De Bruijn graph ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBriujn.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBruijn.ipynb))
+    * Notebook: Simple De Bruijn graph ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBruijn.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_SimpleDeBruijn.ipynb))
     * Notebook: De Bruijn graph ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_deBruijn.ipynb))
 
 * [In practice: Overlap Layout Consensus](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/18_assembly_olc_v2.pdf)
@@ -261,7 +261,7 @@ C++ programming
 * [More about Iterators](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/560_more_iterators.pdf)
 * [STL Pairs and Tuples](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/570_pair_tuple.pdf)
 * [References](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/580_references.pdf)
-* [Classes](http://://www.cs.jhu.edu/~langmea/resources/lecture_notes/600_classes.pdf)
+* [Classes](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/600_classes.pdf)
 * [Constructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/610_constructors.pdf)
 * [New and Delete](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/620_new_delete.pdf)
 * [Non-default constructors](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/630_non_default_ctors.pdf)
