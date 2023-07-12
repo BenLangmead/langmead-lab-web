@@ -1,10 +1,15 @@
----
-title: "Langmead Lab"
----
+::: {layout="[60,40]" .profile-header}
+
+# Langmead Lab
+Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics.
+The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists. 
+
+![](images/JHU_image.jpg){.profile-pic}
+:::
 
 High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](http://www.sciencemag.org/content/331/6018/728.full), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
 
-The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists. We pursue this goal by:
+We pursue this goal by:
 
 * Developing methods and software tools that are efficient, allowing researchers to interact with datasets quickly and effectively. See: [Bowtie] & [Bowtie 2], [Kraken 2], [Dashing], [Dashing 2], [r-index], [MONI], [SPUMONI], [Vargas], [Lighter], [Samovar], [Arioc], [HISAT].  See also our [read alignment review](https://www.annualreviews.org/doi/abs/10.1146/annurev-genom-090413-025358).
 * Developing scalable tools that allow researchers to work with very large datasets, or large collections of datasets. See: [recount3], [Snaptron], [Megadepth], [Recount], [recount2], [recount3], [ASCOT], [Intropolis], [Monorail], [Rail-RNA], [Rail-dbGaP], [Myrna], [Crossbow], [Boiler].  See also our [cloud computing review](https://www.nature.com/articles/nrg.2017.113).
