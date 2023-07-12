@@ -40,3 +40,7 @@
 [Snaptron]: https://snaptron.cs.jhu.edu/
 [minicore]: https://github.com/dnbaker/minicore
 [REPAC]: https://github.com/eddieimada/REPAC
+[rowbowt]: https://github.com/alshai/rowbowt
+[Polyester]: https://bioconductor.org/packages/release/bioc/html/polyester.html
+[Bsmooth]: https://bioconductor.org/packages/release/bioc/html/bsseq.html
+[FC-R2]: http://marchionnilab.org/fcr2.html
