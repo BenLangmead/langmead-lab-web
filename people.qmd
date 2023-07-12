@@ -4,30 +4,30 @@ title: "People"
 
 ## Current members
 
-| | Role | Links |
-| ---------------------- | ----------------------- | -------------- |
-| Ben Langmead           | Principal Investigator  | [Twitter](https://twitter.com/BenLangmead), [Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en), [GitHub](https://github.com/BenLangmead), [Talks](https://speakerdeck.com/benlangmead/), [LinkedIn](https://www.linkedin.com/in/benjaminlangmead/) |
-| Rone Charles           | Software Engineer | [GitHub](https://github.com/ch4rr0) |
-| Mohsen Zakeri          | Postdoctoral Fellow        | [GitHub](https://github.com/mohsenzakeri/) |
-| Anna Liebhoff          | Postdoctoral Fellow, <br /> co-mentored with [Ben Larman](https://labs.pathology.jhu.edu/larman/) | [GitHub](https://github.com/kepsi) |
-| Jessica Bonnie         | Ph.D. Student              | [GitHub](https://github.com/jessicabonnie/) |
-| Omar Ahmed             | Ph.D. Student              | [GitHub](https://github.com/oma219/) |
-| Naga Sai Kavya Vaddadi | Ph.D. Student              | [GitHub](https://github.com/kvaddad1) |
-| Mao-Jan Lin            | Ph.D. Student              | [GitHub](https://github.com/maojanlin) |
-| Vikram Shivakumar      | Ph.D. Student              | [GitHub](https://github.com/vshiv18) |
-| Stephen Hwang          | Ph.D. Student              | [GitHub](https://github.com/StephenHwang) |
+| Name/Role | Links |
+| ----------------------- | -------------- |
+| **Ben Langmead** <br /> Principal Investigator  | [Twitter](https://twitter.com/BenLangmead), [Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en), [GitHub](https://github.com/BenLangmead), [Talks](https://speakerdeck.com/benlangmead/), [LinkedIn](https://www.linkedin.com/in/benjaminlangmead/) |
+| **Rone Charles** <br /> Software Engineer | [GitHub](https://github.com/ch4rr0) |
+| **Mohsen Zakeri** <br /> Postdoctoral Fellow        | [GitHub](https://github.com/mohsenzakeri/) |
+| **Anna Liebhoff** <br /> Postdoctoral Fellow, <br /> co-mentored with [Ben Larman](https://labs.pathology.jhu.edu/larman/) | [GitHub](https://github.com/kepsi) |
+| **Jessica Bonnie** <br /> Ph.D. Student              | [GitHub](https://github.com/jessicabonnie/) |
+| **Omar Ahmed** <br /> Ph.D. Student              | [GitHub](https://github.com/oma219/) |
+| **Naga Sai Kavya Vaddadi** <br /> Ph.D. Student              | [GitHub](https://github.com/kvaddad1) |
+| **Mao-Jan Lin** <br /> Ph.D. Student              | [GitHub](https://github.com/maojanlin) |
+| **Vikram Shivakumar** <br /> Ph.D. Student              | [GitHub](https://github.com/vshiv18) |
+| **Stephen Hwang** <br /> Ph.D. Student              | [GitHub](https://github.com/StephenHwang) |
 
 ## Alumni
 
-|       | Training | Currently |
-| ---- | -------- | --------- |
-| Nae-Chyun Chen | Ph.D.  | Software engineer, Comp. Genomics <br /> Exai Bio |
-| Taher Mun | Ph.D. | Bioinformatics Scientist <br /> Illumina |
-| Daniel Baker | Ph.D. | Senior Scientist <br /> Pacific BioSciences |
-| Dominik Kempa | Postdoctoral Fellow | Assistant Professor <br /> Stony Brook U. CS |
-| Christopher Wilks | Ph.D. | Computational Scientist <br /> Neumora |
-| Charlotte Darby | Ph.D. <br /> co-mentored with [Mike Schatz](https://schatz-lab.org/) | Computational Biologist <br /> Takeda Pharmaceuticals |
-| Brad Solomon | Postdoctoral Fellow | Teaching Assistant Professor <br /> UIUC CS |
-| Jacob Pritt | Ph.D. | Junior Bio-Computational Scientist <br /> Mimetics |
-| Abhinav Nellore | Postdoctoral Fellow | Assistant Professor <br /> Oregon Health & Science University |
-| Derrick Wood | Postdoctoral Fellow | Bioinformatics Scientist and Software Developer |
+| Name/Training | Currently |
+| ---- | --------- |
+| **Nae-Chyun Chen** <br /> Ph.D.  | Software engineer, Comp. Genomics <br /> Exai Bio |
+| **Taher Mun** <br /> Ph.D. | Bioinformatics Scientist <br /> Illumina |
+| **Daniel Baker** <br /> Ph.D. | Senior Scientist <br /> Pacific BioSciences |
+| **Dominik Kempa** <br /> Postdoctoral Fellow | Assistant Professor <br /> Stony Brook U. CS |
+| **Christopher Wilks** <br /> Ph.D. | Computational Scientist <br /> Neumora |
+| **Charlotte Darby** <br /> Ph.D. <br /> co-mentored with [Mike Schatz](https://schatz-lab.org/) | Computational Biologist <br /> Takeda Pharmaceuticals |
+| **Brad Solomon** <br /> Postdoctoral Fellow | Teaching Assistant Professor <br /> UIUC CS |
+| **Jacob Pritt** <br /> Ph.D. | Junior Bio-Computational Scientist <br /> Mimetics |
+| **Abhinav Nellore** <br /> Postdoctoral Fellow | Assistant Professor <br /> Oregon Health & Science University |
+| **Derrick Wood** <br /> Postdoctoral Fellow | Bioinformatics Scientist and Software Developer |
