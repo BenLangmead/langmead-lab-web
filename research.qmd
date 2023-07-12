@@ -1,8 +1,14 @@
 ---
-title: "Software"
+title: "Research"
 ---
 
-## Alignment
+## Papers
+
+For a complete and up-to-date publication list, so the [Google Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en) profile.
+
+## Software
+
+### Alignment
 
 * [Bowtie] -- fast short read alignment
 * [Bowtie 2]  -- fast gapped read alignment for short reads
@@ -12,7 +18,7 @@ title: "Software"
 * [Arioc] by Richard Wilton -- fast GPU-based alignment
 * [HISAT] by Daehwan Kim -- fast spliced alignment
 
-## Pangenome Indexing and Alignment
+### Pangenome Indexing and Alignment
 
 * [FORGe] -- selecting variation to include in a pangenome
 * [Reference Flow] -- multi-genome alignment
@@ -23,13 +29,13 @@ title: "Software"
 * [LevioSAM] -- lift-over for pangenome alignment
 * [LevioSAM 2] -- pangenome alignment across structurally distinct assemblies
 
-## Genomic Sketching
+### Genomic Sketching
 
 * [Dashing] -- genomic sketching with HyperLogLog
 * [Dashing 2] -- genomic sketching with SetSketch
 * [DandD] -- k-independent measurement of sequence content & similarity
 
-## Large-scale Reanalysis
+### Large-scale Reanalysis
 
 * [recount3] -- vast compendium of analyzed, summarized RNA-seq experiments
 * [Snaptron] -- queryable index over recount
@@ -43,11 +49,7 @@ title: "Software"
 * (superseded) [Myrna]
 * (superseded) [Crossbow]
 
-## Variant detection
-
-* [Samovar] -- somatic mosaic variant detection
-
-## RNA-seq analysis
+### RNA-seq analysis
 
 * [Monorail] -- reproducible recount3 analysis pipeline
 * [Megadepth] -- RNA-seq coverage analysis
@@ -55,8 +57,9 @@ title: "Software"
 * [Boiler] -- compression of RNA-seq alignments
 * (superseded) [Rail-RNA]
 
-## Other
+### Other
 
+* [Samovar] -- somatic mosaic variant detection
 * [Lighter] by Li Song -- short read error correction
 * [minicore] -- fast k-means clustering
 * [Bsmooth] -- bisulfity sequencing data analysis

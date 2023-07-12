@@ -7,8 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - software.qmd
-      - pubs.qmd
+      - research.qmd
       - people.qmd
       - teaching.qmd
       - contact.qmd
