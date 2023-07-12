@@ -1,10 +1,10 @@
-::: {layout="[60,40]" .profile-header}
+::: {layout="[70,30]" .profile-header layout-valign="bottom"}
 
 # Langmead Lab
 Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics.
 The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists. 
 
-![](images/JHU_image.jpg){.profile-pic}
+![](images/JHU_image.jpg){.profile-pic fig-align="center"}
 :::
 
 High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](http://www.sciencemag.org/content/331/6018/728.full), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
