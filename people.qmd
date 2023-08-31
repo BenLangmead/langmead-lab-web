@@ -16,15 +16,17 @@ title: "People"
 | **Mao-Jan Lin** <br /> Ph.D. Student              | [GitHub](https://github.com/maojanlin), [Scholar](https://scholar.google.com/citations?user=L_EVYB8AAAAJ&hl=en&oi=ao), [Twitter](https://twitter.com/MaoJanLin) |
 | **Vikram Shivakumar** <br /> Ph.D. Student              | [GitHub](https://github.com/vshiv18), [Scholar](https://scholar.google.com/citations?user=CsJK2y4AAAAJ&hl=en&oi=ao) |
 | **Stephen Hwang** <br /> Ph.D. Student              | [GitHub](https://github.com/StephenHwang), [LinkedIn](https://www.linkedin.com/in/hwangjstephen/) |
+| **Nathaniel Brown** <br /> Ph.D. Student | [GitHub](https://github.com/drnatebrown) |
 
 ## Alumni
 
 | Name/Training | Currently |
 | ---- | --------- |
 | **Nae-Chyun Chen** <br /> Ph.D.  | Software engineer, Comp. Genomics <br /> Exai Bio |
-| **Taher Mun** <br /> Ph.D. | Bioinformatics Scientist <br /> Illumina |
+| **Taher Mun** <br /> Ph.D. | Principal Bioinformatics Software Engineer <br /> Roche |
 | **Daniel Baker** <br /> Ph.D. | Senior Scientist <br /> Pacific BioSciences |
-| **Dominik Kempa** <br /> Postdoctoral Fellow | Assistant Professor <br /> Stony Brook U. CS |
+| **Dominik Kempa** <br /> Postdoctoral Fellow | Assistant Professor, CS <br /> Stony Brook University |
+| **Jonathan Ling** <br /> Postdoctoral (Kavli) Fellow <br /> co-mentored with [Seth Blackshaw](https://blackshawlab.com/)| Assistant Professor, Pathology <br /> Johns Hopkins Medicine |
 | **Christopher Wilks** <br /> Ph.D. | Computational Scientist <br /> Neumora |
 | **Charlotte Darby** <br /> Ph.D. <br /> co-mentored with [Mike Schatz](https://schatz-lab.org/) | Computational Biologist <br /> Takeda Pharmaceuticals |
 | **Brad Solomon** <br /> Postdoctoral Fellow | Teaching Assistant Professor <br /> UIUC CS |
