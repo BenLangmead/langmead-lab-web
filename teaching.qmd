@@ -117,15 +117,15 @@ Sequence models and classification
 File formats
 
 * Notebook: FASTA ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTA.ipynb))
-* Notebook: FASTQ ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb))
-* Notebook: SAM ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb))
+* Notebook: FASTQ ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/FASTQ.ipynb))
+* Notebook: SAM ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/SAM.ipynb))
 
 Miscellaneous
 
-* Notebook: Radix sort ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb))
-* Notebook: Min hashing ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb))
-* Notebook: Minimizers ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb))
-* Notebook: RepeatMasker ([Python](http://nbviewer.ipython.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb))
+* Notebook: Radix sort ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_Radix.ipynb))
+* Notebook: Min hashing ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minhash.ipynb))
+* Notebook: Minimizers ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb))
+* Notebook: RepeatMasker ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb))
 
 ### Suffix Indexing
 
