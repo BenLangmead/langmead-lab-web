@@ -22,7 +22,7 @@ title: "People"
 
 | Name/Training | Currently |
 | ---- | --------- |
-| **Nae-Chyun Chen** <br /> Ph.D.  | Software engineer, Comp. Genomics <br /> Exai Bio |
+| **Nae-Chyun Chen** <br /> Ph.D.  | Senior Software Engineer, Comp. Genomics <br /> Exai Bio |
 | **Taher Mun** <br /> Ph.D. | Principal Bioinformatics Software Engineer <br /> Roche |
 | **Daniel Baker** <br /> Ph.D. | Senior Scientist <br /> Pacific BioSciences |
 | **Dominik Kempa** <br /> Postdoctoral Fellow | Assistant Professor, CS <br /> Stony Brook University |
