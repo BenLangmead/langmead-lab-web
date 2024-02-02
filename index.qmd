@@ -11,7 +11,7 @@ High-throughput life science instruments, especially [DNA sequencers](http://en.
 
 We pursue this goal by:
 
-* Developing methods and software tools that are efficient, allowing researchers to interact with datasets quickly and effectively. See: [Bowtie] & [Bowtie 2], [Kraken 2], [Dashing], [Dashing 2], [r-index], [MONI], [SPUMONI], [Vargas], [Lighter], [Samovar], [Arioc], [HISAT].  See also our [read alignment review](https://www.annualreviews.org/doi/abs/10.1146/annurev-genom-090413-025358).
+* Developing methods and software tools that are efficient, allowing researchers to interact with datasets quickly and effectively. See: [Bowtie] & [Bowtie 2], [Kraken 2], [Dashing], [Dashing 2], [r-index], [MONI], [MOVI], [SPUMONI], [Vargas], [Lighter], [Samovar], [Arioc], [HISAT].  See also our [read alignment review](https://www.annualreviews.org/doi/abs/10.1146/annurev-genom-090413-025358).
 * Developing scalable tools that allow researchers to work with very large datasets, or large collections of datasets. See: [recount3], [Snaptron], [Megadepth], [Recount], [recount2], [recount3], [ASCOT], [Intropolis], [Monorail], [Rail-RNA], [Rail-dbGaP], [Myrna], [Crossbow], [Boiler].  See also our [cloud computing review](https://www.nature.com/articles/nrg.2017.113).
 * Making output from our software as interpretable and free of bias as possible.  See: [Qtip], [FORGe], [Reference Flow] and the related [LevioSAM] tool.
 

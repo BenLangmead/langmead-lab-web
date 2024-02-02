@@ -14,6 +14,7 @@
 [r-index]: https://github.com/alshai/r-index
 [MONI]: https://github.com/maxrossi91/moni
 [SPUMONI]: https://github.com/oma219/spumoni "SPUMONI 1&2"
+[MOVI]: https://github.com/mohsenzakeri/Movi
 
 [Vargas]: https://github.com/langmead-lab/vargas
 
