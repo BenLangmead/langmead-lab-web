@@ -22,7 +22,7 @@ title: "People"
 
 | Name/Training                                                                                                            | Currently                                                     |
 |-----------------------|------------------------------------------------|
-| **Anna Liebhoff** <br /> Ph.D.  | Scientist & Entrepreneur |
+| **Anna Liebhoff** <br /> Postdoctoral Fellow <br /> co-mentored with [Ben Larman](https://labs.pathology.jhu.edu/larman/) | Scientist & Entrepreneur |
 | **Nae-Chyun Chen** <br /> Ph.D. | Senior Software Engineer, Comp. Genomics <br /> Exai Bio |
 | **Taher Mun** <br /> Ph.D.      | Principal Bioinformatics Software Engineer <br /> Roche  |
 | **Daniel Baker** <br /> Ph.D.   | Senior Scientist <br /> Pacific BioSciences              |
