@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://BenLangmead.github.io/langmead-lab-web/index.html</loc>
+    <lastmod>2024-05-01T20:06:01.795Z</lastmod>
+  </url>
+  <url>
     <loc>https://BenLangmead.github.io/langmead-lab-web/contact.html</loc>
-    <lastmod>2024-02-02T21:38:34.770Z</lastmod>
+    <lastmod>2024-05-01T20:06:01.795Z</lastmod>
   </url>
   <url>
     <loc>https://BenLangmead.github.io/langmead-lab-web/people.html</loc>
-    <lastmod>2024-02-02T21:38:34.770Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BenLangmead.github.io/langmead-lab-web/index.html</loc>
-    <lastmod>2024-02-02T21:38:34.770Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BenLangmead.github.io/langmead-lab-web/research.html</loc>
-    <lastmod>2024-02-02T21:38:34.770Z</lastmod>
+    <lastmod>2024-05-01T20:06:01.795Z</lastmod>
   </url>
   <url>
     <loc>https://BenLangmead.github.io/langmead-lab-web/teaching.html</loc>
-    <lastmod>2024-02-02T21:38:34.774Z</lastmod>
+    <lastmod>2024-05-01T20:06:01.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BenLangmead.github.io/langmead-lab-web/research.html</loc>
+    <lastmod>2024-05-01T20:06:01.795Z</lastmod>
   </url>
 </urlset>

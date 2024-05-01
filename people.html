@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -174,8 +174,8 @@ ul.task-list li input[type="checkbox"] {
 <td><a href="https://github.com/mohsenzakeri/">GitHub</a>, <a href="https://scholar.google.com/citations?user=7I-mNqcAAAAJ&amp;hl=en&amp;oi=ao">Scholar</a>, <a href="https://twitter.com/MohsenZakeri1">Twitter</a>, <a href="https://www.linkedin.com/in/mohsen-zakeri-56017576/">LinkedIn</a></td>
 </tr>
 <tr class="even">
-<td><strong>Anna Liebhoff</strong> <br> Postdoctoral Fellow, <br> co-mentored with <a href="https://labs.pathology.jhu.edu/larman/">Ben Larman</a></td>
-<td><a href="https://github.com/kepsi">GitHub</a>, <a href="https://scholar.google.com/citations?user=eC2T-zsAAAAJ&amp;hl=en&amp;oi=ao">Scholar</a>, <a href="https://twitter.com/DrAnnaLieb">Twitter</a>, <a href="https://www.linkedin.com/in/liebhoff">LinkedIn</a></td>
+<td><strong>Sina Majidian</strong> <br> Postdoctoral Fellow</td>
+<td><a href="https://github.com/sinamajidian/">GitHub</a>, <a href="https://scholar.google.com/citations?user=pgzi_1QAAAAJ&amp;hl=en&amp;oi=ao">Scholar</a>, <a href="https://www.linkedin.com/in/sina-majidian/">LinkedIn</a></td>
 </tr>
 <tr class="odd">
 <td><strong>Jessica Bonnie</strong> <br> Ph.D.&nbsp;Student</td>
@@ -219,46 +219,50 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong>Anna Liebhoff</strong> <br> Ph.D.</td>
+<td>Scientist &amp; Entrepreneur</td>
+</tr>
+<tr class="even">
 <td><strong>Nae-Chyun Chen</strong> <br> Ph.D.</td>
 <td>Senior Software Engineer, Comp. Genomics <br> Exai Bio</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Taher Mun</strong> <br> Ph.D.</td>
 <td>Principal Bioinformatics Software Engineer <br> Roche</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Daniel Baker</strong> <br> Ph.D.</td>
 <td>Senior Scientist <br> Pacific BioSciences</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Dominik Kempa</strong> <br> Postdoctoral Fellow</td>
 <td>Assistant Professor, CS <br> Stony Brook University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Jonathan Ling</strong> <br> Postdoctoral (Kavli) Fellow <br> co-mentored with <a href="https://blackshawlab.com/">Seth Blackshaw</a></td>
 <td>Assistant Professor, Pathology <br> Johns Hopkins Medicine</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Christopher Wilks</strong> <br> Ph.D.</td>
 <td>Computational Scientist <br> Neumora</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Charlotte Darby</strong> <br> Ph.D.&nbsp;<br> co-mentored with <a href="https://schatz-lab.org/">Mike Schatz</a></td>
 <td>Computational Biologist <br> Takeda Pharmaceuticals</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Brad Solomon</strong> <br> Postdoctoral Fellow</td>
 <td>Teaching Assistant Professor <br> UIUC CS</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Jacob Pritt</strong> <br> Ph.D.</td>
 <td>Junior Bio-Computational Scientist <br> Mimetics</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Abhinav Nellore</strong> <br> Postdoctoral Fellow</td>
 <td>Assistant Professor <br> Oregon Health &amp; Science University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Derrick Wood</strong> <br> Postdoctoral Fellow</td>
 <td>Bioinformatics Scientist and Software Developer</td>
 </tr>
@@ -348,6 +352,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/BenLangmead\.github\.io\/langmead-lab-web\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -382,7 +404,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
