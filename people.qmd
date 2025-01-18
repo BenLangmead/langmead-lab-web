@@ -25,12 +25,12 @@ title: "People"
 | **Anna Liebhoff** <br /> Postdoctoral Fellow <br /> co-mentored with [Ben Larman](https://labs.pathology.jhu.edu/larman/) | Scientist & Entrepreneur |
 | **Nae-Chyun Chen** <br /> Ph.D. | Senior Software Engineer, Comp. Genomics <br /> Exai Bio |
 | **Taher Mun** <br /> Ph.D.      | Principal Bioinformatics Software Engineer <br /> Roche  |
-| **Daniel Baker** <br /> Ph.D.   | Senior Scientist <br /> Pacific BioSciences              |
+| **Daniel Baker** <br /> Ph.D.   | Software Engineer <br /> Roche              |
 | **Dominik Kempa** <br /> Postdoctoral Fellow                                                                             | Assistant Professor, CS <br /> Stony Brook University         |
 | **Jonathan Ling** <br /> Postdoctoral (Kavli) Fellow <br /> co-mentored with [Seth Blackshaw](https://blackshawlab.com/) | Assistant Professor, Pathology <br /> Johns Hopkins Medicine  |
 | **Christopher Wilks** <br /> Ph.D.                                                                                       | Computational Scientist <br /> Neumora                        |
 | **Charlotte Darby** <br /> Ph.D. <br /> co-mentored with [Mike Schatz](https://schatz-lab.org/)                          | Computational Biologist <br /> Takeda Pharmaceuticals         |
 | **Brad Solomon** <br /> Postdoctoral Fellow                                                                              | Teaching Assistant Professor <br /> UIUC CS                   |
-| **Jacob Pritt** <br /> Ph.D.                                                                                             | Junior Bio-Computational Scientist <br /> Mimetics            |
-| **Abhinav Nellore** <br /> Postdoctoral Fellow                                                                           | Assistant Professor <br /> Oregon Health & Science University |
-| **Derrick Wood** <br /> Postdoctoral Fellow                                                                              | Bioinformatics Scientist and Software Developer               |
+| **Jacob Pritt** <br /> Ph.D.                                                                                             | Lead Computational Scientist <br /> Mimetics            |
+| **Abhinav Nellore** <br /> Postdoctoral Fellow                                                                           | Formerly: Assistant Professor <br /> Oregon Health & Science University |
+| **Derrick Wood** <br /> Postdoctoral Fellow                                                                              | [Founder and Freelancer](https://www.linkedin.com/in/derrick-wood-phd/)                |
