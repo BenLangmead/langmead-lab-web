@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.langmead-lab.org/contact.html</loc>
-    <lastmod>2025-01-18T14:36:43.798Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.langmead-lab.org/index.html</loc>
-    <lastmod>2025-01-18T14:36:43.799Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.langmead-lab.org/people.html</loc>
-    <lastmod>2025-01-18T14:36:43.799Z</lastmod>
+    <loc>https://www.langmead-lab.org/teaching.html</loc>
+    <lastmod>2025-05-14T22:40:25.613Z</lastmod>
   </url>
   <url>
     <loc>https://www.langmead-lab.org/research.html</loc>
-    <lastmod>2025-01-18T14:36:43.799Z</lastmod>
+    <lastmod>2025-05-14T22:40:25.612Z</lastmod>
   </url>
   <url>
-    <loc>https://www.langmead-lab.org/teaching.html</loc>
-    <lastmod>2025-01-18T14:36:43.799Z</lastmod>
+    <loc>https://www.langmead-lab.org/people.html</loc>
+    <lastmod>2025-05-14T22:40:25.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.langmead-lab.org/index.html</loc>
+    <lastmod>2025-05-14T22:40:25.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.langmead-lab.org/contact.html</loc>
+    <lastmod>2025-05-14T22:40:25.611Z</lastmod>
   </url>
 </urlset>
