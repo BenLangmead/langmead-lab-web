@@ -15,13 +15,14 @@ You are free to use these materials.  Feel free to [email me](mailto:langmea@cs.
 
 ## Lecture notes
 
-### Computational Genomics
+Click a section title to expand.
+
+::: {.callout-note collapse="true" appearance="minimal" title="Computational Genomics"}
 
 Introductory
 
 * [What are Genomics and Computational Genomics?](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/01_genomics_comp_genomics_v2.pdf)
-* [DNA sequencing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/02_dna_sequencing_v2.pdf
-)
+* [DNA sequencing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/02_dna_sequencing_v2.pdf)
 
 Strings and matching
 
@@ -95,10 +96,10 @@ Assembly
 
 * [In practice: De Bruijn Graphs](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/19_assembly_dbg2_v2.pdf)
     * Notebook: Error correction ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/CG_ErrorCorrect.ipynb))
+
 * [In practice: Scaffolding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/20_assembly_scaffolding_v2.pdf)
 
 Sequence models and classification
-
 
 * [Sequence modeling](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/21_sequence_modeling_v2.pdf)
 
@@ -127,7 +128,9 @@ Miscellaneous
 * Notebook: Minimizers ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb))
 * Notebook: RepeatMasker ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb))
 
-### Suffix Indexing
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" title="Suffix Indexing"}
 
 *Notes added July, 2023*
 
@@ -152,7 +155,9 @@ Miscellaneous
     * [Maximum skipping](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_25_suffix_arrays_5.pdf) ([YouTube](https://youtu.be/Wc1WmGaKbac))
     * [The Suffix Tree is Hiding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_30_suffix_arrays_6.pdf) ([YouTube](https://youtu.be/8zBseoLWUuI))
 
-### Burrows-Wheeler Indexing
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" title="Burrows-Wheeler Indexing"}
 
 *Notes added May, 2020*
 
@@ -166,12 +171,12 @@ Miscellaneous
     * [Reversing the BWT](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/225_bwt_reverse.pdf) ([YouTube](https://youtu.be/GWFb_C4IR14))
 * Bitvectors
     * [Bitvectors, Rank, Seclect, Access](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/230_bitvectors_rsa.pdf) ([YouTube](https://youtu.be/em7oHDoo-yY))
-    * [Jacobson’s Rank](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/235_jacobsons_rank.pdf) ([YouTube](https://youtu.be/M1sUZxXVjG8))
-    * [Clark’s Select](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/240_clarks_select.pdf) ([YouTube](https://youtu.be/_04wwUzqZCM))
+    * [Jacobson's Rank](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/235_jacobsons_rank.pdf) ([YouTube](https://youtu.be/M1sUZxXVjG8))
+    * [Clark's Select](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/240_clarks_select.pdf) ([YouTube](https://youtu.be/_04wwUzqZCM))
 * Wavelet Trees
     * [Definition and Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/245_wavelet_trees.pdf) ([YouTube](https://youtu.be/JszVzStky1E))
     * [Space, Time, Huffman Shape](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/247_wavelet_trees2.pdf) ([YouTube](https://youtu.be/5oSakiWVC-w))
-* FM Index:
+* FM Index
     * [Efficient Reversal](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/250_bwt_match.pdf) ([YouTube](https://youtu.be/UHGgpfxlaiE))
     * [Efficient Matching](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/252_bwt_match2.pdf) ([YouTube](https://youtu.be/DYyXgxYmSYU))
 * Wheeler Graphs
@@ -185,7 +190,9 @@ Miscellaneous
     * [Run-Length FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/304_rindex_2.pdf) ([YouTube](https://youtu.be/xT21EoBmmAc))
     * [Toehold Lemma Setup](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf) ([YouTube](https://youtu.be/on-rmlQ_uT4))
 
-### Sketching and Randomized Data Structures
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" title="Sketching and Randomized Data Structures"}
 
 *Notes added May, 2020*
 
@@ -206,13 +213,15 @@ Miscellaneous
     * Proof and kth-Minimum Value ([YouTube](https://youtu.be/FokoeMFvOHc))
 * [Similarity and MinHash](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/140_similarity_pub.pdf) ([YouTube](https://youtu.be/aTwRpqUnQX8))
     * Notebook: Shakespeare MinHash ([Py+Colab](https://colab.research.google.com/drive/1Onpf_o049D_fe2DJh87QFmqU1omI5DA8))
-* [Markov’s Inequality](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/145_markovs_ineq_pub.pdf) ([YouTube](https://youtu.be/8UeqtBxsnpU))
+* [Markov's Inequality](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/145_markovs_ineq_pub.pdf) ([YouTube](https://youtu.be/8UeqtBxsnpU))
 * [CountMin sketch](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/150_countmin_pub.pdf)
     * Definition and Point Query ([YouTube](https://youtu.be/hJitoHv4rAU))
     * Proving Error Bound ([YouTube](https://youtu.be/5Mz6wWCqzfI))
     * Conservative Update and Matrix Nature ([YouTube](https://youtu.be/vzKv87rvk3A))
 
-### C and C++ Programming
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" title="C and C++ Programming"}
 
 *Last updated May 9, 2020*
 
@@ -285,3 +294,5 @@ C++ programming
 * [Auto Type](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/800_auto.pdf)
 * [ranged_for loops](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/810_ranged_for.pdf)
 * [override keyword](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/820_override.pdf)
+
+:::
