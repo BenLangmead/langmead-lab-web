@@ -4,7 +4,7 @@ title: "Research"
 
 ## Papers
 
-For a complete and up-to-date publication list, so the [Google Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en) profile.
+For a complete and up-to-date publication list, see the [Google Scholar](https://scholar.google.com/citations?user=2JMaTKsAAAAJ&hl=en) profile.
 
 ## Software
 
@@ -24,6 +24,7 @@ For a complete and up-to-date publication list, so the [Google Scholar](https://
 * [Reference Flow] -- multi-genome alignment
 * [r-index] -- by Nicola Prezza with modifications by Taher Mun, pangenome index
 * [MONI] -- by Max Rossi, fast MEM finding with a pangenome index
+* [MOVI] -- by Mohsen Zakeri, fast move-structure queries with a pangenome index
 * [SPUMONI] -- fast classification with a pangenome index
 * [rowbowt] -- efficient pangenome genotyping
 * [LevioSAM] -- lift-over for pangenome alignment
@@ -59,7 +60,6 @@ For a complete and up-to-date publication list, so the [Google Scholar](https://
 
 ### Other
 
-* [Samovar] -- somatic mosaic variant detection
 * [Lighter] by Li Song -- short read error correction
 * [minicore] -- fast k-means clustering
 * [Bsmooth] -- bisulfity sequencing data analysis
