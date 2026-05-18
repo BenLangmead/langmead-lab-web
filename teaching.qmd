@@ -13,6 +13,26 @@ You are free to use these materials.  Feel free to [email me](mailto:langmea@cs.
 * [Lecture notes](https://github.com/BenLangmead/ads1-slides) on GitHub
 * [Jupyter notebooks](https://github.com/BenLangmead/ads1-notebooks) on GitHub
 
+### Burrows-Wheeler Indexing
+
+* [Lecture videos](https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu) on YouTube (27 videos)
+* Slides and per-lecture links: see the Burrows-Wheeler Indexing section in Lecture notes below
+
+### Suffix Indexing
+
+* [Lecture videos](https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb) on YouTube (15 videos)
+* Slides and per-lecture links: see the Suffix Indexing section in Lecture notes below
+
+### Sketching and Randomized Data Structures
+
+* [Lecture videos](https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM) on YouTube (16 videos)
+* Slides and per-lecture links: see the Sketching and Randomized Data Structures section in Lecture notes below
+
+### Sequence Modeling
+
+* [Lecture videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup) on YouTube (10 videos)
+* Slides and per-lecture links: see the Sequence Modeling section in Lecture notes below
+
 ## Lecture notes
 
 Click a section title to expand.
@@ -218,6 +238,25 @@ Miscellaneous
     * Definition and Point Query ([YouTube](https://youtu.be/hJitoHv4rAU))
     * Proving Error Bound ([YouTube](https://youtu.be/5Mz6wWCqzfI))
     * Conservative Update and Matrix Nature ([YouTube](https://youtu.be/vzKv87rvk3A))
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal" title="Sequence Modeling"}
+
+*[YouTube playlist](https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup), 10 videos*
+
+Covers the foundations of probabilistic sequence modeling with applications to computational biology: the Markov assumption, Markov chains, and Hidden Markov Models, with applications to CpG island finding and gene finding.
+
+* Sequence modeling: Intro ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_00_intro.pdf), [YouTube](https://youtu.be/2MYjsAijxSw))
+* Sequence modeling: Probability review ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_02_probreview.pdf), [YouTube](https://youtu.be/Yj6owCbkWLM))
+* Sequence modeling: Markov assumption ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_03_markovassum.pdf), [YouTube](https://youtu.be/xIRWEfOVOGE))
+* Sequence modeling: Markov chains, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_05_chains.pdf), [YouTube](https://youtu.be/H2amPLKnC6g))
+* Sequence modeling: Markov chains, part 2 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_07_chains2.pdf), [YouTube](https://youtu.be/ZVwym-ZWfMI))
+* Sequence modeling: Hidden Markov Models, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_10_hmm1.pdf), [YouTube](https://youtu.be/qOcHydNqwX0))
+* Sequence models: HMM decoding ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_15_decoding.pdf), [YouTube](https://youtu.be/4EYpVDFcVsA))
+* Sequence modeling: Applying HMMs to CpG island finding ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_20_cpgisland.pdf), [YouTube](https://youtu.be/xi9c7J-E2C0))
+* Sequence modeling: HMMs for gene finding, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_30_genefind1.pdf), [YouTube](https://youtu.be/FlPRgtggE7M))
+* Sequence modeling: HMMs for gene finding, part 2 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_35_genefind2.pdf), [YouTube](https://youtu.be/AhFlSFTSWAs))
 
 :::
 
