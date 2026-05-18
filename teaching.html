@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Teaching Materials – Langmead Lab @ JHU</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dde8d7229bfee0f8bb5efd37f0f9ae1e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e7735b7b22659e5fa437aca0bb49075.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -129,14 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#algorithms-for-dna-sequencing" id="toc-algorithms-for-dna-sequencing" class="nav-link" data-scroll-target="#algorithms-for-dna-sequencing">Algorithms for DNA Sequencing</a></li>
   </ul></li>
-  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a>
-  <ul class="collapse">
-  <li><a href="#computational-genomics" id="toc-computational-genomics" class="nav-link" data-scroll-target="#computational-genomics">Computational Genomics</a></li>
-  <li><a href="#suffix-indexing" id="toc-suffix-indexing" class="nav-link" data-scroll-target="#suffix-indexing">Suffix Indexing</a></li>
-  <li><a href="#burrows-wheeler-indexing" id="toc-burrows-wheeler-indexing" class="nav-link" data-scroll-target="#burrows-wheeler-indexing">Burrows-Wheeler Indexing</a></li>
-  <li><a href="#sketching-and-randomized-data-structures" id="toc-sketching-and-randomized-data-structures" class="nav-link" data-scroll-target="#sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</a></li>
-  <li><a href="#c-and-c-programming" id="toc-c-and-c-programming" class="nav-link" data-scroll-target="#c-and-c-programming">C and C++ Programming</a></li>
-  </ul></li>
+  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
   </ul>
 </nav>
     </div>
@@ -177,8 +173,19 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="lecture-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h2>
-<section id="computational-genomics" class="level3">
-<h3 class="anchored" data-anchor-id="computational-genomics">Computational Genomics</h3>
+<p>Click a section title to expand.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Computational Genomics">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Computational Genomics
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Introductory</p>
 <ul>
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/01_genomics_comp_genomics_v2.pdf">What are Genomics and Computational Genomics?</a></li>
@@ -300,9 +307,21 @@ ul.task-list li input[type="checkbox"] {
 <li>Notebook: Minimizers (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb">Py+Colab</a>)</li>
 <li>Notebook: RepeatMasker (<a href="http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb">Python</a>, <a href="https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb">Py+Colab</a>)</li>
 </ul>
-</section>
-<section id="suffix-indexing" class="level3">
-<h3 class="anchored" data-anchor-id="suffix-indexing">Suffix Indexing</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Suffix Indexing">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Suffix Indexing
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><em>Notes added July, 2023</em></p>
 <p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb">YouTube playlist</a> added summer, 2022 and updated summer, 2023</em></p>
 <ul>
@@ -331,9 +350,21 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_30_suffix_arrays_6.pdf">The Suffix Tree is Hiding</a> (<a href="https://youtu.be/8zBseoLWUuI">YouTube</a>)</li>
 </ul></li>
 </ul>
-</section>
-<section id="burrows-wheeler-indexing" class="level3">
-<h3 class="anchored" data-anchor-id="burrows-wheeler-indexing">Burrows-Wheeler Indexing</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Burrows-Wheeler Indexing">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Burrows-Wheeler Indexing
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><em>Notes added May, 2020</em></p>
 <p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu">YouTube playlist</a> added July 2020, updated in summer 2022 and 2023</em></p>
 <ul>
@@ -356,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/245_wavelet_trees.pdf">Definition and Queries</a> (<a href="https://youtu.be/JszVzStky1E">YouTube</a>)</li>
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/247_wavelet_trees2.pdf">Space, Time, Huffman Shape</a> (<a href="https://youtu.be/5oSakiWVC-w">YouTube</a>)</li>
 </ul></li>
-<li>FM Index:
+<li>FM Index
 <ul>
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/250_bwt_match.pdf">Efficient Reversal</a> (<a href="https://youtu.be/UHGgpfxlaiE">YouTube</a>)</li>
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/252_bwt_match2.pdf">Efficient Matching</a> (<a href="https://youtu.be/DYyXgxYmSYU">YouTube</a>)</li>
@@ -376,9 +407,21 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf">Toehold Lemma Setup</a> (<a href="https://youtu.be/on-rmlQ_uT4">YouTube</a>)</li>
 </ul></li>
 </ul>
-</section>
-<section id="sketching-and-randomized-data-structures" class="level3">
-<h3 class="anchored" data-anchor-id="sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Sketching and Randomized Data Structures">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Sketching and Randomized Data Structures
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><em>Notes added May, 2020</em></p>
 <p><em><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM">YouTube playlist</a> added July, 2020</em>, 16 videos</p>
 <ul>
@@ -415,9 +458,21 @@ ul.task-list li input[type="checkbox"] {
 <li>Conservative Update and Matrix Nature (<a href="https://youtu.be/vzKv87rvk3A">YouTube</a>)</li>
 </ul></li>
 </ul>
-</section>
-<section id="c-and-c-programming" class="level3">
-<h3 class="anchored" data-anchor-id="c-and-c-programming">C and C++ Programming</h3>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="C and C++ Programming">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>C and C++ Programming
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><em>Last updated May 9, 2020</em></p>
 <p>See <a href="https://github.com/BenLangmead/c-cpp-notes">GitHub repo</a> with original markdown and compilation script</p>
 <ul>
@@ -489,9 +544,11 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/810_ranged_for.pdf">ranged_for loops</a></li>
 <li><a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/820_override.pdf">override keyword</a></li>
 </ul>
+</div>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -546,13 +603,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

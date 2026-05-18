@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Contact – Langmead Lab @ JHU</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dde8d7229bfee0f8bb5efd37f0f9ae1e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e7735b7b22659e5fa437aca0bb49075.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -120,9 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -148,17 +149,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Principal Investigator:</p>
 <blockquote class="blockquote">
 <p>Ben Langmead<br>
-Department of Computer Science<br>
+Professor, Department of Computer Science<br>
 Johns Hopkins University<br>
 3400 North Charles St<br>
 Baltimore, MD 21218-2682</p>
 </blockquote>
 <p>Email: <code>langmea &lt;at&gt; cs.jhu.edu</code><br>
 Phone: 410-516-2033<br>
-Twitter: <a href="https://twitter.com/BenLangmead"><span class="citation" data-cites="BenLangmead">@BenLangmead</span></a><br>
+BlueSky: <a href="https://bsky.app/profile/benlangmead.bsky.social"><span class="citation" data-cites="benlangmead.bsky.social">@benlangmead.bsky.social</span></a><br>
 Mastodon: <a href="https://genomic.social/@benlangmead"><span class="citation" data-cites="benlangmead">@benlangmead</span><span class="citation" data-cites="genomic.social">@genomic.social</span></a><br>
-Threads: <code>@btlangmead</code><br>
 YouTube: <a href="https://www.youtube.com/BenLangmead"><span class="citation" data-cites="BenLangmead">@BenLangmead</span></a><br>
+Twitter: <a href="https://twitter.com/BenLangmead"><span class="citation" data-cites="BenLangmead">@BenLangmead</span></a><br>
+Threads: <code>@btlangmead</code><br>
 Office: 329 Malone</p>
 <p>Office of the CS department: 160 Malone Hall</p>
 
@@ -216,13 +218,14 @@ Office: 329 Malone</p>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
