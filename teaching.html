@@ -131,6 +131,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#full-courses-online" id="toc-full-courses-online" class="nav-link active" data-scroll-target="#full-courses-online">Full courses online</a>
   <ul class="collapse">
   <li><a href="#algorithms-for-dna-sequencing" id="toc-algorithms-for-dna-sequencing" class="nav-link" data-scroll-target="#algorithms-for-dna-sequencing">Algorithms for DNA Sequencing</a></li>
+  <li><a href="#burrows-wheeler-indexing" id="toc-burrows-wheeler-indexing" class="nav-link" data-scroll-target="#burrows-wheeler-indexing">Burrows-Wheeler Indexing</a></li>
+  <li><a href="#suffix-indexing" id="toc-suffix-indexing" class="nav-link" data-scroll-target="#suffix-indexing">Suffix Indexing</a></li>
+  <li><a href="#sketching-and-randomized-data-structures" id="toc-sketching-and-randomized-data-structures" class="nav-link" data-scroll-target="#sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</a></li>
+  <li><a href="#sequence-modeling" id="toc-sequence-modeling" class="nav-link" data-scroll-target="#sequence-modeling">Sequence Modeling</a></li>
   </ul></li>
   <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
   </ul>
@@ -168,6 +172,34 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA">Lecture videos</a> on YouTube (55 lectures, about 7 minutes each)</li>
 <li><a href="https://github.com/BenLangmead/ads1-slides">Lecture notes</a> on GitHub</li>
 <li><a href="https://github.com/BenLangmead/ads1-notebooks">Jupyter notebooks</a> on GitHub</li>
+</ul>
+</section>
+<section id="burrows-wheeler-indexing" class="level3">
+<h3 class="anchored" data-anchor-id="burrows-wheeler-indexing">Burrows-Wheeler Indexing</h3>
+<ul>
+<li><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu">Lecture videos</a> on YouTube (27 videos)</li>
+<li>Slides and per-lecture links: see the Burrows-Wheeler Indexing section in Lecture notes below</li>
+</ul>
+</section>
+<section id="suffix-indexing" class="level3">
+<h3 class="anchored" data-anchor-id="suffix-indexing">Suffix Indexing</h3>
+<ul>
+<li><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb">Lecture videos</a> on YouTube (15 videos)</li>
+<li>Slides and per-lecture links: see the Suffix Indexing section in Lecture notes below</li>
+</ul>
+</section>
+<section id="sketching-and-randomized-data-structures" class="level3">
+<h3 class="anchored" data-anchor-id="sketching-and-randomized-data-structures">Sketching and Randomized Data Structures</h3>
+<ul>
+<li><a href="https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM">Lecture videos</a> on YouTube (16 videos)</li>
+<li>Slides and per-lecture links: see the Sketching and Randomized Data Structures section in Lecture notes below</li>
+</ul>
+</section>
+<section id="sequence-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="sequence-modeling">Sequence Modeling</h3>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup">Lecture videos</a> on YouTube (10 videos)</li>
+<li>Slides and per-lecture links: see the Sequence Modeling section in Lecture notes below</li>
 </ul>
 </section>
 </section>
@@ -461,8 +493,37 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout callout-style-simple callout-note no-icon callout-titled" title="C and C++ Programming">
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Sequence Modeling">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Sequence Modeling
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em><a href="https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup">YouTube playlist</a>, 10 videos</em></p>
+<p>Covers the foundations of probabilistic sequence modeling with applications to computational biology: the Markov assumption, Markov chains, and Hidden Markov Models, with applications to CpG island finding and gene finding.</p>
+<ul>
+<li>Sequence modeling: Intro (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_00_intro.pdf">Slides</a>, <a href="https://youtu.be/2MYjsAijxSw">YouTube</a>)</li>
+<li>Sequence modeling: Probability review (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_02_probreview.pdf">Slides</a>, <a href="https://youtu.be/Yj6owCbkWLM">YouTube</a>)</li>
+<li>Sequence modeling: Markov assumption (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_03_markovassum.pdf">Slides</a>, <a href="https://youtu.be/xIRWEfOVOGE">YouTube</a>)</li>
+<li>Sequence modeling: Markov chains, part 1 (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_05_chains.pdf">Slides</a>, <a href="https://youtu.be/H2amPLKnC6g">YouTube</a>)</li>
+<li>Sequence modeling: Markov chains, part 2 (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_07_chains2.pdf">Slides</a>, <a href="https://youtu.be/ZVwym-ZWfMI">YouTube</a>)</li>
+<li>Sequence modeling: Hidden Markov Models, part 1 (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_10_hmm1.pdf">Slides</a>, <a href="https://youtu.be/qOcHydNqwX0">YouTube</a>)</li>
+<li>Sequence models: HMM decoding (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_15_decoding.pdf">Slides</a>, <a href="https://youtu.be/4EYpVDFcVsA">YouTube</a>)</li>
+<li>Sequence modeling: Applying HMMs to CpG island finding (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_20_cpgisland.pdf">Slides</a>, <a href="https://youtu.be/xi9c7J-E2C0">YouTube</a>)</li>
+<li>Sequence modeling: HMMs for gene finding, part 1 (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_30_genefind1.pdf">Slides</a>, <a href="https://youtu.be/FlPRgtggE7M">YouTube</a>)</li>
+<li>Sequence modeling: HMMs for gene finding, part 2 (<a href="http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_35_genefind2.pdf">Slides</a>, <a href="https://youtu.be/AhFlSFTSWAs">YouTube</a>)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="C and C++ Programming">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -471,7 +532,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><em>Last updated May 9, 2020</em></p>
 <p>See <a href="https://github.com/BenLangmead/c-cpp-notes">GitHub repo</a> with original markdown and compilation script</p>
