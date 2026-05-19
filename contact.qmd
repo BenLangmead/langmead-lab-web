@@ -12,7 +12,6 @@ Principal Investigator:
 >Baltimore, MD 21218-2682
 
 Email: `langmea <at> cs.jhu.edu` \
-Phone: 410-516-2033 \
 BlueSky: [@benlangmead.bsky.social](https://bsky.app/profile/benlangmead.bsky.social) \
 YouTube: [@BenLangmead](https://www.youtube.com/BenLangmead) \
 Office: 329 Malone
