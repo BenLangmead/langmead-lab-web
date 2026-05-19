@@ -7,7 +7,7 @@ You are free to use these materials. Feel free to [email me](mailto:langmea@cs.j
 
 <div class="teaching-stats">
   <span class="stat-item">🎬 <strong>123 videos</strong> · 35+ hours</span>
-  <span class="stat-item">&nbsp;&nbsp;&nbsp;📄 <strong>~140 slide decks</strong></span>
+  <span class="stat-item">&nbsp;&nbsp;&nbsp;📄 <strong>~150 slide decks</strong></span>
   <span class="stat-item">&nbsp;&nbsp;&nbsp;📓 <strong>42 notebooks</strong></span>
   <span class="stat-item">&nbsp;&nbsp;&nbsp;🎓 <strong>1 full Coursera course</strong></span>
 </div>
@@ -29,12 +29,9 @@ Click a course title to expand.
 <div class="course-content">
 ```
 
-A comprehensive introduction to computational genomics algorithms. Available as a full Coursera course and as freely downloadable lecture notes and notebooks.
+A comprehensive introduction to computational genomics algorithms.
 
-* [Full course](https://www.coursera.org/course/ads1) on Coursera
-* [Lecture videos](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA) on YouTube (55 videos, about 7 hours total)
-* [Lecture notes](https://github.com/BenLangmead/ads1-slides) on GitHub
-* [Jupyter notebooks](https://github.com/BenLangmead/ads1-notebooks) on GitHub
+🎬 [**55 videos** · ~7 hours](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA) &nbsp;&nbsp; 📄 [**24 slide decks**](https://github.com/BenLangmead/ads1-slides) &nbsp;&nbsp; 📓 [**39 notebooks**](https://github.com/BenLangmead/ads1-notebooks) &nbsp;&nbsp; 🎓 [**full Coursera course**](https://www.coursera.org/course/ads1)
 
 #### Introductory
 
@@ -143,7 +140,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 <div class="course-content">
 ```
 
-*Notes added May 2020. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu) (27 videos, ~12 hours) added July 2020, updated summers 2022 and 2023.*
+🎬 [**27 videos** · ~12 hours](https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu) &nbsp;&nbsp; 📄 **27 slide decks**
 
 * [Intro: Indexing](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/205_intro_indexing.pdf) ([YouTube](https://youtu.be/5G2Db41pSHE))
 * [Entropy and Coding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/210_entropy_coding.pdf) ([YouTube](https://youtu.be/TepaLzgatAw))
@@ -214,7 +211,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 <div class="course-content">
 ```
 
-*Notes added July 2023. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb) (15 videos, ~5 hours) added summer 2022, updated summer 2023.*
+🎬 [**15 videos** · ~5 hours](https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb) &nbsp;&nbsp; 📄 **15 slide decks**
 
 #### Tries and Suffix Tries
 
@@ -261,7 +258,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 <div class="course-content">
 ```
 
-*Notes added May 2020. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM) (16 videos, ~7.5 hours) added July 2020.*
+🎬 [**16 videos** · ~7.5 hours](https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM) &nbsp;&nbsp; 📄 **10 slide decks** &nbsp;&nbsp; 📓 **3 notebooks**
 
 * [Hash Tables and Probability](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/105_hash_and_prob_pub.pdf) (YouTube [part 1](https://youtu.be/HH1Hakswsus), [part 2](https://youtu.be/V9Qg3GzRWjk))
 * [Hashes and Randomness](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/110_randomization_pub.pdf) ([YouTube](https://youtu.be/XOl5RcDgZQY))
@@ -304,7 +301,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 <div class="course-content">
 ```
 
-*[YouTube playlist](https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup) (10 videos, ~4 hours).*
+🎬 [**10 videos** · ~4 hours](https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup) &nbsp;&nbsp; 📄 **10 slide decks**
 
 Covers the foundations of probabilistic sequence modeling with applications to computational biology: the Markov assumption, Markov chains, and Hidden Markov Models, with applications to CpG island finding and gene finding.
 
@@ -339,7 +336,7 @@ Covers the foundations of probabilistic sequence modeling with applications to c
 <div class="course-content">
 ```
 
-*Last updated May 9, 2020. See [GitHub repo](https://github.com/BenLangmead/c-cpp-notes) for original markdown and compilation script.*
+📄 **64 slide decks** — [source on GitHub](https://github.com/BenLangmead/c-cpp-notes)
 
 #### C programming
 
