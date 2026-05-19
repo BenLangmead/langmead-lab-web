@@ -183,6 +183,16 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 * [Runs](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/300_rindex_1_clean.pdf) ([YouTube](https://youtu.be/Zf6r8XdYf-M))
 * [Run-Length FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/304_rindex_2.pdf) ([YouTube](https://youtu.be/xT21EoBmmAc))
 * [Toehold Lemma Setup](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf) ([YouTube](https://youtu.be/on-rmlQ_uT4))
+* [Locate Queries, part 1](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/310_rindex_4a.pdf) ([YouTube](https://youtu.be/XwhFRiUAGmc))
+* [Locate Queries, part 2](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/310_rindex_4b.pdf) ([YouTube](https://youtu.be/mC9_hatGYrI))
+
+#### Move Structure
+
+* [Introduction](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/move_00_intro.pdf) ([YouTube](https://youtu.be/REniD2dKf6A))
+* [Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/move_02_queries.pdf) ([YouTube](https://youtu.be/JwaZ0ruAQCA))
+* [Constant-Time Queries](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/move_05_proof.pdf) ([YouTube](https://youtu.be/6X36zjVMv_M))
+* [Memory and Speed](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/move_10_faster.pdf) ([YouTube](https://youtu.be/HWS0f7Xr5Cs))
+* [More Permutations](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/move_20_more_permutations.pdf) ([YouTube](https://youtu.be/kw2MghXPDeM))
 
 ```{=html}
 </div>
@@ -298,16 +308,16 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 
 Covers the foundations of probabilistic sequence modeling with applications to computational biology: the Markov assumption, Markov chains, and Hidden Markov Models, with applications to CpG island finding and gene finding.
 
-* Sequence modeling: Intro ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_00_intro.pdf), [YouTube](https://youtu.be/2MYjsAijxSw))
-* Sequence modeling: Probability review ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_02_probreview.pdf), [YouTube](https://youtu.be/Yj6owCbkWLM))
-* Sequence modeling: Markov assumption ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_03_markovassum.pdf), [YouTube](https://youtu.be/xIRWEfOVOGE))
-* Sequence modeling: Markov chains, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_05_chains.pdf), [YouTube](https://youtu.be/H2amPLKnC6g))
-* Sequence modeling: Markov chains, part 2 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_07_chains2.pdf), [YouTube](https://youtu.be/ZVwym-ZWfMI))
-* Sequence modeling: Hidden Markov Models, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_10_hmm1.pdf), [YouTube](https://youtu.be/qOcHydNqwX0))
-* Sequence models: HMM decoding ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_15_decoding.pdf), [YouTube](https://youtu.be/4EYpVDFcVsA))
-* Sequence modeling: Applying HMMs to CpG island finding ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_20_cpgisland.pdf), [YouTube](https://youtu.be/xi9c7J-E2C0))
-* Sequence modeling: HMMs for gene finding, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_30_genefind1.pdf), [YouTube](https://youtu.be/FlPRgtggE7M))
-* Sequence modeling: HMMs for gene finding, part 2 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_35_genefind2.pdf), [YouTube](https://youtu.be/AhFlSFTSWAs))
+* [Intro](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_00_intro.pdf) ([YouTube](https://youtu.be/2MYjsAijxSw))
+* [Probability review](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_02_probreview.pdf) ([YouTube](https://youtu.be/Yj6owCbkWLM))
+* [Markov assumption](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_03_markovassum.pdf) ([YouTube](https://youtu.be/xIRWEfOVOGE))
+* [Markov chains, part 1](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_05_chains.pdf) ([YouTube](https://youtu.be/H2amPLKnC6g))
+* [Markov chains, part 2](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_07_chains2.pdf) ([YouTube](https://youtu.be/ZVwym-ZWfMI))
+* [Hidden Markov Models, part 1](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_10_hmm1.pdf) ([YouTube](https://youtu.be/qOcHydNqwX0))
+* [HMM decoding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_15_decoding.pdf) ([YouTube](https://youtu.be/4EYpVDFcVsA))
+* [Applying HMMs to CpG island finding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_20_cpgisland.pdf) ([YouTube](https://youtu.be/xi9c7J-E2C0))
+* [HMMs for gene finding, part 1](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_30_genefind1.pdf) ([YouTube](https://youtu.be/FlPRgtggE7M))
+* [HMMs for gene finding, part 2](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_35_genefind2.pdf) ([YouTube](https://youtu.be/AhFlSFTSWAs))
 
 ```{=html}
 </div>
