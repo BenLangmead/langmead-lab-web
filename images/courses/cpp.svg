@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- C/C++ programming: curly braces with a subtle code line inside -->
+  <!-- Opening brace { -->
+  <path d="M 26 8 Q 18 8 18 16 L 18 26 Q 18 32 12 32 Q 18 32 18 38 L 18 48 Q 18 56 26 56"
+        stroke="#2780e3" stroke-width="5" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Closing brace } -->
+  <path d="M 38 8 Q 46 8 46 16 L 46 26 Q 46 32 52 32 Q 46 32 46 38 L 46 48 Q 46 56 38 56"
+        stroke="#2780e3" stroke-width="5" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Subtle horizontal code lines inside, suggesting content -->
+  <line x1="24" y1="24" x2="40" y2="24" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="32" x2="36" y2="32" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="40" x2="38" y2="40" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
+</svg>
