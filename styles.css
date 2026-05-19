@@ -54,22 +54,31 @@ details.course-card > summary {
 }
 
 /* ── Dark mode overrides ────────────────────────────────────────────────────── */
-/* Quarto sets data-bs-theme="dark" on <html> when Darkly is active */
+/* Quarto adds class "quarto-dark" to <body> when Darkly is active */
 
-[data-bs-theme="dark"] details.course-card > summary {
+body.quarto-dark details.course-card > summary {
   background: rgba(255, 255, 255, 0.05);
 }
 
-[data-bs-theme="dark"] details.course-card[open] > summary {
+body.quarto-dark details.course-card[open] > summary {
   background: rgba(39, 128, 227, 0.12);
 }
 
-[data-bs-theme="dark"] details.course-card {
+body.quarto-dark details.course-card {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-[data-bs-theme="dark"] .teaching-stats {
+body.quarto-dark .teaching-stats {
   background: rgba(39, 128, 227, 0.12);
+}
+
+/* ── Home page: float image so text wraps naturally ─────────────────────────── */
+
+.profile-pic {
+  float: right;
+  width: 36%;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 4px;
 }
 
 details.course-card > summary::-webkit-details-marker {
