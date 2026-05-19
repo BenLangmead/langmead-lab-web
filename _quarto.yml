@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Langmead Lab @ JHU"
+  favicon: images/favicon.svg
   navbar:
     left:
       - href: index.qmd

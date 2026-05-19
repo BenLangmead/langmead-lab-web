@@ -3,13 +3,13 @@ title: "Teaching Materials"
 toc: false
 ---
 
-You are free to use these materials. Feel free to [email me](mailto:langmea@cs.jhu.edu) to tell me how you are using them, or to ask for a copy of the original Keynote files.
+You are free to use these materials. Feel free to [email me](mailto:langmea@cs.jhu.edu) to tell me how you are using them, or to ask for a copy of the original Keynote files. You can also browse all course videos on [my YouTube channel](https://www.youtube.com/@BenLangmead).
 
 <div class="teaching-stats">
   <span class="stat-item">🎬 <strong>123 videos</strong> · 35+ hours</span>
-  <span class="stat-item">📄 <strong>~140 slide decks</strong></span>
-  <span class="stat-item">📓 <strong>42 notebooks</strong></span>
-  <span class="stat-item">🎓 <strong>1 full Coursera course</strong></span>
+  <span class="stat-item">&nbsp;&nbsp;&nbsp;📄 <strong>~140 slide decks</strong></span>
+  <span class="stat-item">&nbsp;&nbsp;&nbsp;📓 <strong>42 notebooks</strong></span>
+  <span class="stat-item">&nbsp;&nbsp;&nbsp;🎓 <strong>1 full Coursera course</strong></span>
 </div>
 
 Click a course title to expand.
@@ -22,7 +22,7 @@ Click a course title to expand.
   <img src="images/courses/ads1.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">Algorithms for DNA Sequencing</span>
-    <span class="course-keywords">Covers: exact matching, Boyer-Moore, indexing, BWT, FM-index, alignment, assembly, Markov chains, HMMs</span>
+    <span class="course-keywords">exact matching · Boyer-Moore · indexing · BWT · FM-index · alignment · assembly · Markov chains · HMMs</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
@@ -136,7 +136,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <img src="images/courses/bwt.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">Burrows-Wheeler Indexing</span>
-    <span class="course-keywords">Covers: entropy, BWT, FM-index, bitvectors, wavelet trees, Wheeler graphs, r-index, run-length encoding</span>
+    <span class="course-keywords">entropy · BWT · FM-index · bitvectors · wavelet trees · Wheeler graphs · r-index · run-length encoding</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
@@ -197,7 +197,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <img src="images/courses/suffix.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">Suffix Indexing</span>
-    <span class="course-keywords">Covers: tries, suffix tries, suffix trees, suffix links, matching statistics, suffix arrays, LCP arrays</span>
+    <span class="course-keywords">tries · suffix tries · suffix trees · suffix links · matching statistics · suffix arrays · LCP arrays</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
@@ -244,7 +244,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <img src="images/courses/sketching.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">Sketching and Randomized Data Structures</span>
-    <span class="course-keywords">Covers: hash tables, bloom filters, universal hashing, cardinality estimation, MinHash, Jaccard similarity, CountMin sketch</span>
+    <span class="course-keywords">hash tables · bloom filters · universal hashing · cardinality estimation · MinHash · Jaccard similarity · CountMin sketch</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
@@ -287,7 +287,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <img src="images/courses/seqmod.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">Sequence Modeling</span>
-    <span class="course-keywords">Covers: probability review, Markov assumption, Markov chains, hidden Markov models, Viterbi decoding, CpG islands, gene finding</span>
+    <span class="course-keywords">probability · Markov assumption · Markov chains · Hidden Markov Models · Viterbi decoding · CpG islands · gene finding</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
@@ -322,7 +322,7 @@ Covers the foundations of probabilistic sequence modeling with applications to c
   <img src="images/courses/cpp.svg" class="course-logo" alt="">
   <div class="course-title-block">
     <span class="course-name">C and C++ Programming</span>
-    <span class="course-keywords">Covers: compilation, types, pointers, memory, stack/heap, structs, OOP, templates, STL, inheritance, polymorphism</span>
+    <span class="course-keywords">compilation · types · pointers · memory · stack/heap · structs · OOP · templates · STL · inheritance · polymorphism</span>
   </div>
   <span class="course-chevron">▶</span>
 </summary>
