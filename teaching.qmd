@@ -29,8 +29,6 @@ Click a course title to expand.
 <div class="course-content">
 ```
 
-A comprehensive introduction to computational genomics algorithms.
-
 🎬 [**55 videos** · ~7 hours](https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA) &nbsp;&nbsp; 📄 [**24 slide decks**](https://github.com/BenLangmead/ads1-slides) &nbsp;&nbsp; 📓 [**39 notebooks**](https://github.com/BenLangmead/ads1-notebooks) &nbsp;&nbsp; 🎓 [**full Coursera course**](https://www.coursera.org/course/ads1)
 
 #### Introductory
