@@ -14,10 +14,7 @@ Principal Investigator:
 Email: `langmea <at> cs.jhu.edu` \
 Phone: 410-516-2033 \
 BlueSky: [@benlangmead.bsky.social](https://bsky.app/profile/benlangmead.bsky.social) \
-Mastodon: [@benlangmead@genomic.social](https://genomic.social/@benlangmead) \
 YouTube: [@BenLangmead](https://www.youtube.com/BenLangmead) \
-Twitter: [@BenLangmead](https://twitter.com/BenLangmead) \
-Threads: `@btlangmead` \
 Office: 329 Malone
 
 Office of the CS department: 160 Malone Hall
