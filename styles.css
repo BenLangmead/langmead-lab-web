@@ -53,6 +53,25 @@ details.course-card > summary {
   user-select: none;
 }
 
+/* ── Dark mode overrides ────────────────────────────────────────────────────── */
+/* Quarto sets data-bs-theme="dark" on <html> when Darkly is active */
+
+[data-bs-theme="dark"] details.course-card > summary {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-bs-theme="dark"] details.course-card[open] > summary {
+  background: rgba(39, 128, 227, 0.12);
+}
+
+[data-bs-theme="dark"] details.course-card {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-bs-theme="dark"] .teaching-stats {
+  background: rgba(39, 128, 227, 0.12);
+}
+
 details.course-card > summary::-webkit-details-marker {
   display: none;
 }
@@ -79,6 +98,12 @@ details.course-card[open] > summary {
   /* --bs-emphasis-color is near-black in light, near-white in dark */
   color: var(--bs-emphasis-color);
   display: block;
+}
+
+.course-title-block .course-name .course-tag {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--bs-secondary-color);
 }
 
 .course-title-block .course-keywords {

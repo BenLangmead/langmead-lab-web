@@ -4,7 +4,7 @@
 
 Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics. The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists.
 
-![](images/JHU_image.jpg){.profile-pic fig-align="center"}
+![](images/JHU_image.jpg){.profile-pic fig-align="center" style="max-height: 210px; width: auto; object-fit: cover;"}
 
 :::
 
