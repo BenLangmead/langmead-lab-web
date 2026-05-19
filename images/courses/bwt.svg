@@ -1,39 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- FM-index / tally table: 5 sorted rows, L col highlighted blue, F col highlighted red -->
-  <!-- Row backgrounds -->
-  <rect x="4"  y="4"  width="56" height="11" rx="2" fill="#f8fafc"/>
-  <rect x="4"  y="17" width="56" height="11" rx="2" fill="#f8fafc"/>
-  <rect x="4"  y="30" width="56" height="11" rx="2" fill="#f8fafc"/>
-  <rect x="4"  y="43" width="56" height="11" rx="2" fill="#f8fafc"/>
-  <rect x="4"  y="56" width="56" height="11" rx="2" fill="#f8fafc"/>
-  <!-- L column (last chars of BWT) — left side, blue -->
-  <rect x="4"  y="4"  width="13" height="11" rx="2" fill="#bfdbfe"/>
-  <rect x="4"  y="17" width="13" height="11" rx="2" fill="#bfdbfe"/>
-  <rect x="4"  y="30" width="13" height="11" rx="2" fill="#bfdbfe"/>
-  <rect x="4"  y="43" width="13" height="11" rx="2" fill="#bfdbfe"/>
-  <rect x="4"  y="56" width="13" height="11" rx="2" fill="#bfdbfe"/>
-  <!-- L column letters -->
-  <text x="10" y="13"  font-family="monospace" font-size="9" fill="#1d4ed8" text-anchor="middle">A</text>
-  <text x="10" y="26"  font-family="monospace" font-size="9" fill="#1d4ed8" text-anchor="middle">T</text>
-  <text x="10" y="39"  font-family="monospace" font-size="9" fill="#1d4ed8" text-anchor="middle">A</text>
-  <text x="10" y="52"  font-family="monospace" font-size="9" fill="#1d4ed8" text-anchor="middle">C</text>
-  <text x="10" y="65"  font-family="monospace" font-size="9" fill="#1d4ed8" text-anchor="middle">G</text>
-  <!-- Middle dots representing sorted suffixes -->
-  <text x="32" y="13"  font-family="monospace" font-size="8" fill="#9ca3af" text-anchor="middle">···</text>
-  <text x="32" y="26"  font-family="monospace" font-size="8" fill="#9ca3af" text-anchor="middle">···</text>
-  <text x="32" y="39"  font-family="monospace" font-size="8" fill="#9ca3af" text-anchor="middle">···</text>
-  <text x="32" y="52"  font-family="monospace" font-size="8" fill="#9ca3af" text-anchor="middle">···</text>
-  <text x="32" y="65"  font-family="monospace" font-size="8" fill="#9ca3af" text-anchor="middle">···</text>
-  <!-- F column (first chars, sorted) — right side, red -->
-  <rect x="47" y="4"  width="13" height="11" rx="2" fill="#fecaca"/>
-  <rect x="47" y="17" width="13" height="11" rx="2" fill="#fecaca"/>
-  <rect x="47" y="30" width="13" height="11" rx="2" fill="#fecaca"/>
-  <rect x="47" y="43" width="13" height="11" rx="2" fill="#fecaca"/>
-  <rect x="47" y="56" width="13" height="11" rx="2" fill="#fecaca"/>
-  <!-- F column letters -->
-  <text x="53" y="13"  font-family="monospace" font-size="9" fill="#991b1b" text-anchor="middle">A</text>
-  <text x="53" y="26"  font-family="monospace" font-size="9" fill="#991b1b" text-anchor="middle">A</text>
-  <text x="53" y="39"  font-family="monospace" font-size="9" fill="#991b1b" text-anchor="middle">C</text>
-  <text x="53" y="52"  font-family="monospace" font-size="9" fill="#991b1b" text-anchor="middle">G</text>
-  <text x="53" y="65"  font-family="monospace" font-size="9" fill="#991b1b" text-anchor="middle">T</text>
+  <!-- FM-index: L column (blue, left) and F column (red, right) with LF-mapping arrows -->
+
+  <!-- L column boxes -->
+  <rect x="3"  y="4"  width="14" height="10" rx="2" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="3"  y="17" width="14" height="10" rx="2" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="3"  y="30" width="14" height="10" rx="2" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="3"  y="43" width="14" height="10" rx="2" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <rect x="3"  y="56" width="14" height="10" rx="2" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+
+  <!-- F column boxes -->
+  <rect x="47" y="4"  width="14" height="10" rx="2" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <rect x="47" y="17" width="14" height="10" rx="2" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <rect x="47" y="30" width="14" height="10" rx="2" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <rect x="47" y="43" width="14" height="10" rx="2" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+  <rect x="47" y="56" width="14" height="10" rx="2" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
+
+  <!-- LF-mapping arrows (crossing = permutation) -->
+  <!-- L row 1 (y=9) → F row 3 (y=35): goes down-right -->
+  <path d="M17,9 C32,9 32,35 47,35" stroke="#7c3aed" stroke-width="1.4" fill="none" opacity="0.75"
+        marker-end="url(#tip)"/>
+  <!-- L row 2 (y=22) → F row 1 (y=9): goes up-right -->
+  <path d="M17,22 C32,22 32,9 47,9" stroke="#7c3aed" stroke-width="1.4" fill="none" opacity="0.75"
+        marker-end="url(#tip)"/>
+  <!-- L row 3 (y=35) → F row 5 (y=61): goes down-right -->
+  <path d="M17,35 C32,35 32,61 47,61" stroke="#7c3aed" stroke-width="1.4" fill="none" opacity="0.75"
+        marker-end="url(#tip)"/>
+  <!-- L row 4 (y=48) → F row 2 (y=22): goes up-right -->
+  <path d="M17,48 C32,48 32,22 47,22" stroke="#7c3aed" stroke-width="1.4" fill="none" opacity="0.75"
+        marker-end="url(#tip)"/>
+  <!-- L row 5 (y=61) → F row 4 (y=48): small cross -->
+  <path d="M17,61 C32,61 32,48 47,48" stroke="#7c3aed" stroke-width="1.4" fill="none" opacity="0.75"
+        marker-end="url(#tip)"/>
+
+  <defs>
+    <marker id="tip" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#7c3aed" opacity="0.85"/>
+    </marker>
+  </defs>
 </svg>
