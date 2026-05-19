@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- DNA double helix: two zigzag strands + base-pair rungs -->
+  <!-- Rungs (base pairs), drawn behind strands -->
+  <line x1="20" y1="8"  x2="44" y2="8"  stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="24" x2="44" y2="24" stroke="#fca5a5" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="40" x2="44" y2="40" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+  <line x1="20" y1="56" x2="44" y2="56" stroke="#fca5a5" stroke-width="3" stroke-linecap="round"/>
+  <!-- Strand 1 (blue) -->
+  <polyline points="20,8 44,24 20,40 44,56"
+            stroke="#2780e3" stroke-width="4" fill="none"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Strand 2 (red) -->
+  <polyline points="44,8 20,24 44,40 20,56"
+            stroke="#dc2626" stroke-width="4" fill="none"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
