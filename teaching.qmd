@@ -16,6 +16,7 @@ Click a course title to expand.
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/ads1.svg" class="course-logo" alt="">
@@ -26,6 +27,7 @@ Click a course title to expand.
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 A comprehensive introduction to computational genomics algorithms. Available as a full Coursera course and as freely downloadable lecture notes and notebooks.
 
@@ -121,11 +123,14 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 * Notebook: Minimizers ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/Minimizers.ipynb))
 * Notebook: RepeatMasker ([Python](http://nbviewer.jupyter.org/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb), [Py+Colab](https://colab.research.google.com/github/BenLangmead/comp-genomics-class/blob/master/notebooks/RepeatMasker.ipynb))
 
+```{=html}
 </div>
 </details>
+```
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/bwt.svg" class="course-logo" alt="">
@@ -136,6 +141,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 *Notes added May 2020. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsADmYpW2YWBrXJZ_6EL_3nu) (27 videos, ~12 hours) added July 2020, updated summers 2022 and 2023.*
 
@@ -178,11 +184,14 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 * [Run-Length FM Index](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/304_rindex_2.pdf) ([YouTube](https://youtu.be/xT21EoBmmAc))
 * [Toehold Lemma Setup](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/308_rindex_3.pdf) ([YouTube](https://youtu.be/on-rmlQ_uT4))
 
+```{=html}
 </div>
 </details>
+```
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/suffix.svg" class="course-logo" alt="">
@@ -193,6 +202,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 *Notes added July 2023. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsDFNyRsTNcWkFTHTkxWREeb) (15 videos, ~5 hours) added summer 2022, updated summer 2023.*
 
@@ -221,11 +231,14 @@ A comprehensive introduction to computational genomics algorithms. Available as 
 * [Maximum skipping](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_25_suffix_arrays_5.pdf) ([YouTube](https://youtu.be/Wc1WmGaKbac))
 * [The Suffix Tree is Hiding](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/sa/2022_02_30_suffix_arrays_6.pdf) ([YouTube](https://youtu.be/8zBseoLWUuI))
 
+```{=html}
 </div>
 </details>
+```
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/sketching.svg" class="course-logo" alt="">
@@ -236,6 +249,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 *Notes added May 2020. [YouTube playlist](https://youtube.com/playlist?list=PL2mpR0RYFQsAR5RyB54FyEE9vUiGtCSZM) (16 videos, ~7.5 hours) added July 2020.*
 
@@ -260,11 +274,14 @@ A comprehensive introduction to computational genomics algorithms. Available as 
     * Proving Error Bound ([YouTube](https://youtu.be/5Mz6wWCqzfI))
     * Conservative Update and Matrix Nature ([YouTube](https://youtu.be/vzKv87rvk3A))
 
+```{=html}
 </div>
 </details>
+```
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/seqmod.svg" class="course-logo" alt="">
@@ -275,6 +292,7 @@ A comprehensive introduction to computational genomics algorithms. Available as 
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 *[YouTube playlist](https://www.youtube.com/playlist?list=PL2mpR0RYFQsAK40GHyupLV4M-3wH8EOup) (10 videos, ~4 hours).*
 
@@ -291,11 +309,14 @@ Covers the foundations of probabilistic sequence modeling with applications to c
 * Sequence modeling: HMMs for gene finding, part 1 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_30_genefind1.pdf), [YouTube](https://youtu.be/FlPRgtggE7M))
 * Sequence modeling: HMMs for gene finding, part 2 ([Slides](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/seqmod/mod_35_genefind2.pdf), [YouTube](https://youtu.be/AhFlSFTSWAs))
 
+```{=html}
 </div>
 </details>
+```
 
 ---
 
+```{=html}
 <details class="course-card">
 <summary>
   <img src="images/courses/cpp.svg" class="course-logo" alt="">
@@ -306,6 +327,7 @@ Covers the foundations of probabilistic sequence modeling with applications to c
   <span class="course-chevron">▶</span>
 </summary>
 <div class="course-content">
+```
 
 *Last updated May 9, 2020. See [GitHub repo](https://github.com/BenLangmead/c-cpp-notes) for original markdown and compilation script.*
 
@@ -379,5 +401,7 @@ Covers the foundations of probabilistic sequence modeling with applications to c
 * [ranged_for loops](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/810_ranged_for.pdf)
 * [override keyword](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/820_override.pdf)
 
+```{=html}
 </div>
 </details>
+```
