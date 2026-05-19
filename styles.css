@@ -69,7 +69,28 @@ body.quarto-dark details.course-card {
 }
 
 body.quarto-dark .teaching-stats {
-  background: rgba(39, 128, 227, 0.12);
+  background: rgba(39, 128, 227, 0.15);
+  color: #e2e8f0;
+}
+
+body.quarto-dark .teaching-stats .stat-item strong {
+  color: #93c5fd;
+}
+
+body.quarto-dark .course-title-block .course-name {
+  color: #f1f5f9;
+}
+
+body.quarto-dark .course-title-block .course-name .course-tag {
+  color: #94a3b8;
+}
+
+body.quarto-dark .course-title-block .course-keywords {
+  color: #94a3b8;
+}
+
+body.quarto-dark .course-chevron {
+  color: #64748b;
 }
 
 /* ── Home page: float image so text wraps naturally ─────────────────────────── */
