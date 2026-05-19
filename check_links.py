@@ -63,6 +63,21 @@ BOT_BLOCKED: frozenset[str] = frozenset({
     "x.com",
     "linkedin.com",
     "www.linkedin.com",
+    # SourceForge returns 403 to crawlers even for live projects
+    "sourceforge.net",
+    # bsky.app is a JS SPA; server returns 404 for profile routes
+    "bsky.app",
+    # Annual Reviews blocks headless requests
+    "annualreviews.org",
+    "www.annualreviews.org",
+    # science.org / sciencemag.org block crawlers
+    "science.org",
+    "www.science.org",
+    "sciencemag.org",
+    "www.sciencemag.org",
+    # JHU sites return 403/timeout to automated requests
+    "www.cs.jhu.edu",
+    "cs.jhu.edu",
 })
 
 # Rate-sensitive domains: limit to 1 concurrent request each.

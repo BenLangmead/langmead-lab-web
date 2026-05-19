@@ -7,7 +7,7 @@ The laboratory’s goal is to make high-throughput life science data as useful a
 ![](images/JHU_image.jpg){.profile-pic fig-align="center"}
 :::
 
-High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](http://www.sciencemag.org/content/331/6018/728.full), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
+High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](https://www.science.org/doi/10.1126/science.331.6018.728), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
 
 We pursue this goal by:
 
