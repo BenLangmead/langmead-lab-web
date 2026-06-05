@@ -146,7 +146,7 @@ Click a course title to expand.
 
 #### Burrows-Wheeler Transform
 
-* [Intro and Compression Boosting](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/220_bwt_intro_boost.pdf) ([YouTube](https://youtu.be/nNqPTcbX1s4))
+* [Intro and Compression Boosting](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/220_bwt_intro_boost.pdf) ([YouTube](https://youtu.be/6BJbEWyO_N0))
 * [Reversing the BWT](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/bwt/225_bwt_reverse.pdf) ([YouTube](https://youtu.be/GWFb_C4IR14))
 
 #### Bitvectors
