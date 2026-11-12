@@ -102,6 +102,11 @@ body.quarto-dark .course-chevron {
   border-radius: 4px;
 }
 
+/* A block formatting context keeps the callout beside the floated image instead of running underneath it */
+.callout.hiring-note {
+  display: flow-root;
+}
+
 details.course-card > summary::-webkit-details-marker {
   display: none;
 }
