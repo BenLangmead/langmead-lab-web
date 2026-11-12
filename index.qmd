@@ -2,6 +2,10 @@
 
 ![](images/JHU_image.jpg){.profile-pic}
 
+::: {.callout-note appearance="simple"}
+**Prospective students:** I am recruiting new Ph.D. students to start in Fall 2027. If you are interested in computational genomics, please apply to the [Ph.D. program in Computer Science](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-program-admissions/) at Johns Hopkins. See the [Contact](contact.qmd) page for details.
+:::
+
 Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics. The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists.
 
 High-throughput life science instruments, especially [DNA sequencers](http://en.wikipedia.org/wiki/DNA_sequencing), are improving rapidly. Sequencing has become a [ubiquitous tool](http://www.nature.com/nrg/series/nextgeneration/index.html) in the study of biology, genetics and disease. Today, because [sequencing throughput is outpacing computer speed and storage capacity](https://www.science.org/doi/10.1126/science.331.6018.728), the most crucial biological research bottlenecks are increasingly computational: computing, storage, labor, and power.
