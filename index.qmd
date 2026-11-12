@@ -2,8 +2,8 @@
 
 ![](images/JHU_image.jpg){.profile-pic}
 
-::: {.callout-note appearance="simple"}
-**Prospective students:** I am recruiting new Ph.D. students to start in Fall 2027. If you are interested in computational genomics, please apply to the [Ph.D. program in Computer Science](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-program-admissions/) at Johns Hopkins. See the [Contact](contact.qmd) page for details.
+::: {.callout-note .hiring-note appearance="simple"}
+**Prospective students:** I am hiring new Ph.D. students in this year's application cycle. Applications go through the Department of Computer Science's graduate admissions process, with a deadline of December 15. To start your application or learn more about the process, see the department's [Ph.D. admissions page](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-program-admissions/) and its [Ph.D. admissions FAQ](https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/phd-admissions-faqs/).
 :::
 
 Our group at the Computer Science department at Johns Hopkins University studies methods for Computational Genomics. The laboratory’s goal is to make high-throughput life science data as useful as possible to everyday life scientists.
